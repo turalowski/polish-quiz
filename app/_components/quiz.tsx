@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 interface Question {
   sentence: string;
-  correctWord: string;
+  correctIndex: number;
   options: string[];
 }
 
@@ -72,7 +72,7 @@ const Quiz: React.FC<QuizProps> = ({ questions }) => {
                 key={index}
                 onClick={() =>
                   handleAnswerOptionClick(
-                    option === currentQuestion.correctWord
+                    index === currentQuestion.correctIndex
                   )
                 }
               >

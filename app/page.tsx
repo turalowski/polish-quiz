@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 interface Question {
   sentence: string;
-  correctWord: string;
+  correctIndex: number;
   options: string[];
 }
 
@@ -22,28 +22,28 @@ const questions: Variant[] = [
     questions: [
       {
         sentence: 'I didn’t go to the party, ____ I was tired.',
-        correctWord: 'Bo',
+        correctIndex: 1,
         options: ['czyli', 'Bo', 'Ale', 'Albo'],
       },
       {
         sentence:
           'I want to buy a new phone, ____ I need to save some money first.',
-        correctWord: 'więc',
+          correctIndex: 2,
         options: ['Już', 'Ale', 'więc', 'Chyba'],
       },
       {
         sentence: 'Would you like coffee ____ tea?',
-        correctWord: 'Albo',
+        correctIndex: 3,
         options: ['Też', 'Ale', 'Już', 'Albo'],
       },
       {
         sentence: 'He is very tall, ____ he plays basketball.',
-        correctWord: 'czyli',
+        correctIndex: 0,
         options: ['czyli', 'Bo', 'Ale', 'z nami'],
       },
       {
         sentence: 'I have finished my homework ____ I can relax now.',
-        correctWord: 'Już',
+        correctIndex: 2,
         options: ['U ciebie', 'wszyscy', 'Już', 'Chyba'],
       },
     ],
@@ -53,37 +53,37 @@ const questions: Variant[] = [
     questions: [
       {
         sentence: 'She speaks Spanish, and she ____ speaks French.',
-        correctWord: 'Też',
+        correctIndex: 1,
         options: ['Bo', 'Też', 'Już', 'wszyscy'],
       },
       {
         sentence: 'I’m not sure, but ____ it’s going to rain today.',
-        correctWord: 'Chyba',
+        correctIndex: 0,
         options: ['Chyba', 'Ale', 'Bo', 'razem'],
       },
       {
         sentence: 'We need to meet ____ to discuss the project.',
-        correctWord: 'razem',
+        correctIndex: 3,
         options: ['Już', 'wszyscy', 'z nami', 'razem'],
       },
       {
         sentence: 'Is this your book, or is it ____?',
-        correctWord: 'U ciebie',
+        correctIndex: 0,
         options: ['U ciebie', 'Ale', 'Już', 'Bo'],
       },
       {
         sentence: 'You ____ finish your work before going out.',
-        correctWord: 'Trzeba',
+        correctIndex: 2,
         options: ['Ale', 'Też', 'Trzeba', 'wszyscy'],
       },
       {
         sentence: 'She will come with us, ____ she?',
-        correctWord: 'z nami',
+        correctIndex: 3,
         options: ['czyli', 'Bo', 'Ale', 'z nami'],
       },
       {
         sentence: 'We will do it ____.',
-        correctWord: 'wszyscy',
+        correctIndex: 0,
         options: ['wszyscy', 'czyli', 'Już', 'Bo'],
       },
     ],

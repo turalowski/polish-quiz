@@ -1,6 +1,6 @@
 'use client';
 
-import { Topic, QuizSet } from '@/types';
+import { Topic, QuizSet } from '@/app/_types';
 import { Card, CardHeader, CardTitle, CardContent } from "@/app/_components/ui/card";
 import { Button } from "@/app/_components/ui/button";
 import { ChevronLeft } from "lucide-react";

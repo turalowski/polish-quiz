@@ -1,6 +1,6 @@
 'use client';
 
-import { Topic } from '@/types';
+import { Topic } from '@/app/_types';
 import { Card, CardHeader, CardTitle, CardContent } from "@/app/_components/ui/card";
 import { Button } from "@/app/_components/ui/button";
 

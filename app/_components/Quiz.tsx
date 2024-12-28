@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { QuizSet } from '@/app/_types';
+import { QuizSet } from '../_types';
 import { Card, CardHeader, CardTitle, CardContent } from "@/app/_components/ui/card";
 import { Button } from "@/app/_components/ui/button";
 import { Progress } from "@/app/_components/ui/progress";

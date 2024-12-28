@@ -1,8 +1,8 @@
 'use client';
 
 import { Topic, QuizSet } from '@/types';
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "@/app/_components/ui/card";
+import { Button } from "@/app/_components/ui/button";
 import { ChevronLeft } from "lucide-react";
 
 interface QuizSetSelectorProps {

@@ -45,17 +45,17 @@ yarn dev
 ```
 quiz-polski/
 ├── app/
-│   ├── components/
+│   ├── _components/
 │   │   ├── Header.tsx
 │   │   ├── Quiz.tsx
 │   │   ├── QuizSetSelector.tsx
 │   │   └── TopicSelector.tsx
+│   ├── _data/
+│   │   └── sampleData.ts
+│   ├── _types/
+│   │   └── index.ts
 │   ├── layout.tsx
 │   └── page.tsx
-├── data/
-│   └── sampleData.ts
-└── types/
-    └── index.ts
 ```
 
 ## Author

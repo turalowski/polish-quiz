@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { topics } from '@/data/sampleData';
-import TopicSelector from '@/components/TopicSelector';
-import QuizSetSelector from '@/components/QuizSetSelector';
-import Quiz from '@/components/Quiz';
-import { Topic, QuizSet } from '@/types';
+import { topics } from './_data/sampleData';
+import TopicSelector from './_components/TopicSelector';
+import QuizSetSelector from './_components/QuizSetSelector';
+import Quiz from './_components/Quiz';
+import { Topic, QuizSet } from './_types';
 
 export default function Home() {
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);

@@ -1,0 +1,15 @@
+Task: You are given a correct answer to a question. Your job is to:
+
+Slightly polish the correct answer for clarity and flow, without changing its meaning.
+
+Create three incorrect but plausible variants that are grammatically and stylistically similar to the correct one.
+
+Guidelines:
+
+All 4 answer choices should sound reasonable and natural.
+
+Avoid making the wrong answers obviously incorrect (e.g., don’t just throw in random facts or mix up parts of speech).
+
+Keep the structure and length of each variant similar.
+
+Make the wrong answers subtly misleading, e.g., by including a partially correct concept, close synonym, or common misconception.

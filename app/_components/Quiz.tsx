@@ -74,78 +74,81 @@ export default function Quiz({ quizSet, onBack }: QuizProps) {
   const isCorrect = selectedAnswer === question.correctAnswer;
 
   return (
-    <div className="max-w-2xl mx-auto space-y-4">
+    <div className="max-w-2xl mx-auto space-y-6">
       <Button 
         variant="ghost" 
         onClick={onBack}
+        className="mb-2"
       >
         <ChevronLeft className="mr-2 h-4 w-4" />
         Powrót do zestawów
       </Button>
 
-      <Card>
-        <CardHeader>
-          <div className="space-y-2">
+      <Card className="shadow-lg">
+        <CardHeader className="space-y-4">
+          <div className="space-y-3">
             <Progress value={progress} className="w-full" />
             <p className="text-sm text-muted-foreground text-right">
               Pytanie {currentQuestion + 1} z {quizSet.questions.length}
             </p>
           </div>
-          <CardTitle className="mt-4">{question.question}</CardTitle>
+          <CardTitle className="text-xl sm:text-2xl">{question.question}</CardTitle>
         </CardHeader>
-        <CardContent className="grid gap-4">
-          {question.options.map((option, index) => {
-            const isSelected = selectedAnswer === index;
-            const isCorrectAnswer = index === question.correctAnswer;
-            
-            let buttonVariant: "outline" | "default" | "destructive" = "outline";
-            let buttonClassName = "w-full justify-start h-auto py-4 px-6";
-            
-            if (showFeedback) {
-              if (isCorrectAnswer) {
-                buttonVariant = "default";
-                buttonClassName = cn(buttonClassName, "bg-green-500 hover:bg-green-600");
-              } else if (isSelected) {
-                buttonVariant = "destructive";
-                buttonClassName = cn(buttonClassName, "bg-red-500 hover:bg-red-600");
+        <CardContent>
+          <div className="space-y-3">
+            {question.options.map((option, index) => {
+              const isSelected = selectedAnswer === index;
+              const isCorrectAnswer = index === question.correctAnswer;
+              
+              let buttonVariant: "outline" | "default" | "destructive" = "outline";
+              let buttonClassName = "w-full min-h-[3.5rem] px-6 py-4 text-left transition-all duration-200 hover:shadow-md";
+              
+              if (showFeedback) {
+                if (isCorrectAnswer) {
+                  buttonVariant = "default";
+                  buttonClassName = cn(buttonClassName, "bg-green-500 hover:bg-green-600 text-white");
+                } else if (isSelected) {
+                  buttonVariant = "destructive";
+                  buttonClassName = cn(buttonClassName, "bg-red-500 hover:bg-red-600 text-white");
+                }
               }
-            }
+              
+              return (
+                <Button
+                  key={index}
+                  variant={buttonVariant}
+                  className={buttonClassName}
+                  onClick={() => !showFeedback && handleAnswer(index)}
+                  disabled={showFeedback}
+                >
+                  <div className="flex items-center w-full">
+                    <span className="flex-grow break-words">{option}</span>
+                    {showFeedback && isSelected && (
+                      isCorrect ? (
+                        <Check className="h-5 w-5 ml-3 flex-shrink-0" />
+                      ) : (
+                        <X className="h-5 w-5 ml-3 flex-shrink-0" />
+                      )
+                    )}
+                    {showFeedback && isCorrectAnswer && !isSelected && (
+                      <Check className="h-5 w-5 ml-3 flex-shrink-0" />
+                    )}
+                  </div>
+                </Button>
+              );
+            })}
             
-            return (
-              <Button
-                key={index}
-                variant={buttonVariant}
-                className={buttonClassName}
-                onClick={() => !showFeedback && handleAnswer(index)}
-                disabled={showFeedback}
-              >
-                <div className="flex items-center w-full">
-                  <span className="flex-grow">{option}</span>
-                  {showFeedback && isSelected && (
-                    isCorrect ? (
-                      <Check className="h-5 w-5 ml-2" />
-                    ) : (
-                      <X className="h-5 w-5 ml-2" />
-                    )
-                  )}
-                  {showFeedback && isCorrectAnswer && !isSelected && (
-                    <Check className="h-5 w-5 ml-2" />
-                  )}
-                </div>
-              </Button>
-            );
-          })}
-          
-          {showFeedback && (
-            <div className="mt-4">
-              <Button 
-                onClick={handleNextQuestion}
-                className="w-full"
-              >
-                {currentQuestion + 1 < quizSet.questions.length ? "Następne pytanie" : "Zobacz wyniki"}
-              </Button>
-            </div>
-          )}
+            {showFeedback && (
+              <div className="pt-4">
+                <Button 
+                  onClick={handleNextQuestion}
+                  className="w-full py-4"
+                >
+                  {currentQuestion + 1 < quizSet.questions.length ? "Następne pytanie" : "Zobacz wyniki"}
+                </Button>
+              </div>
+            )}
+          </div>
         </CardContent>
       </Card>
     </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { topics } from './_data/sampleData';
+import { topics } from './_data';
 import TopicSelector from './_components/TopicSelector';
 import QuizSetSelector from './_components/QuizSetSelector';
 import Quiz from './_components/Quiz';

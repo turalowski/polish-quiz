@@ -13,10 +13,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to be' po polsku?",
             options: [
-              "mieć",
+              "bywać",
               "być",
-              "robić",
-              "mówić"
+              "istnieć",
+              "znajdować się"
             ],
             correctAnswer: 1
           },
@@ -24,10 +24,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to have' po polsku?",
             options: [
-              "być",
+              "posiadać",
               "mieć",
-              "robić",
-              "mówić"
+              "dysponować",
+              "własność"
             ],
             correctAnswer: 1
           },
@@ -35,10 +35,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to do' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wykonywać",
+              "działać",
               "robić",
-              "mówić"
+              "prowadzić"
             ],
             correctAnswer: 2
           },
@@ -46,9 +46,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to say' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "wypowiadać",
+              "wyrażać",
+              "komunikować",
               "mówić"
             ],
             correctAnswer: 3
@@ -57,10 +57,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to go' po polsku?",
             options: [
-              "być",
+              "przechadzać",
               "jechać",
-              "robić",
-              "mówić"
+              "poruszać się",
+              "przemieszczać się"
             ],
             correctAnswer: 1
           },
@@ -68,10 +68,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to get' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "otrzymywać",
+              "nabywać",
               "dostać",
-              "mówić"
+              "pozyskiwać"
             ],
             correctAnswer: 2
           },
@@ -79,9 +79,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to make' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "wytwarzać",
+              "tworzyć",
+              "produkować",
               "zrobić"
             ],
             correctAnswer: 3
@@ -91,9 +91,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'to know' po polsku?",
             options: [
               "znać",
-              "mieć",
-              "robić",
-              "mówić"
+              "wiedzieć",
+              "rozumieć",
+              "pojmować"
             ],
             correctAnswer: 0
           },
@@ -101,10 +101,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to think' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "rozmyślać",
+              "dumać",
               "myśleć",
-              "mówić"
+              "reflektować"
             ],
             correctAnswer: 2
           },
@@ -112,9 +112,9 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to see' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "spoglądać",
+              "oglądać",
+              "przyglądać się",
               "widzieć"
             ],
             correctAnswer: 3
@@ -129,10 +129,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to come' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "przybywać",
+              "nadchodzić",
               "przyjechać",
-              "mówić"
+              "przybyć"
             ],
             correctAnswer: 2
           },
@@ -140,10 +140,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to want' po polsku?",
             options: [
-              "być",
+              "pragnąć",
               "chcieć",
-              "robić",
-              "mówić"
+              "życzyć sobie",
+              "dążyć"
             ],
             correctAnswer: 1
           },
@@ -151,10 +151,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to look' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "spoglądać",
+              "oglądać",
               "patrzeć",
-              "mówić"
+              "przyglądać się"
             ],
             correctAnswer: 2
           },
@@ -162,21 +162,21 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to use' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
-              "używać"
+              "wykorzystywać",
+              "używać",
+              "stosować",
+              "zastosować"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 5,
             question: "Jak powiesz 'to find' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "odnajdywać",
+              "znajdować",
               "znaleźć",
-              "mówić"
+              "odkrywać"
             ],
             correctAnswer: 2
           },
@@ -184,10 +184,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to give' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wręczać",
+              "dawać",
               "dać",
-              "mówić"
+              "przekazywać"
             ],
             correctAnswer: 2
           },
@@ -195,9 +195,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to tell' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "opowiadać",
+              "mówić",
+              "informować",
               "powiedzieć"
             ],
             correctAnswer: 3
@@ -206,32 +206,32 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to work' po polsku?",
             options: [
-              "być",
               "pracować",
-              "robić",
-              "mówić"
+              "zarabiać",
+              "działać",
+              "funkcjonować"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to call' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "telefonować",
               "dzwonić",
-              "mówić"
+              "kontaktować się",
+              "komunikować się"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 10,
             question: "Jak powiesz 'to try' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "próbować",
+              "usiłować",
               "spróbować",
-              "mówić"
+              "dążyć"
             ],
             correctAnswer: 2
           }
@@ -245,54 +245,54 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to ask' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "zapytywać",
               "pytać",
-              "mówić"
+              "interesować się",
+              "dopytywać"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 2,
             question: "Jak powiesz 'to need' po polsku?",
             options: [
-              "być",
               "potrzebować",
-              "robić",
-              "mówić"
+              "wymagać",
+              "potrzebny",
+              "niezbędny"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'to feel' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "odczuwać",
               "czuć",
-              "mówić"
+              "doznawać",
+              "przeżywać"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 4,
             question: "Jak powiesz 'to become' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
-              "zostać"
+              "stawać się",
+              "zostać",
+              "przemieniać się",
+              "zmieniać się"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 5,
             question: "Jak powiesz 'to leave' po polsku?",
             options: [
-              "być",
+              "wyjeżdżać",
               "wyjechać",
-              "robić",
-              "mówić"
+              "opuszczać",
+              "wychodzić"
             ],
             correctAnswer: 1
           },
@@ -300,10 +300,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to put' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "kłaść",
+              "umieszczać",
               "położyć",
-              "mówić"
+              "stawiać"
             ],
             correctAnswer: 2
           },
@@ -311,43 +311,43 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to mean' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
-              "znaczyć"
+              "oznaczać",
+              "znaczyć",
+              "wyrażać",
+              "komunikować"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 8,
             question: "Jak powiesz 'to keep' po polsku?",
             options: [
-              "być",
               "trzymać",
-              "robić",
-              "mówić"
+              "zachowywać",
+              "przechowywać",
+              "konserwować"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to let' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "pozwalać",
               "pozwolić",
-              "mówić"
+              "zezwalać",
+              "dopuszczać"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 10,
             question: "Jak powiesz 'to begin' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "zaczynać",
+              "rozpoczynać",
               "zacząć",
-              "mówić"
+              "zainicjować"
             ],
             correctAnswer: 2
           }
@@ -1155,8 +1155,7 @@ export const topics: Topic[] = [
         ]
       }
     ]
-  }
-  ,
+  },
   {
     id: 2,
     name: "Rzeczowniki",
@@ -1169,10 +1168,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'house' po polsku?",
             options: [
-              "pies",
+              "budynek",
               "dom",
-              "kot", 
-              "książka"
+              "gmach",
+              "budowla"
             ],
             correctAnswer: 1
           },
@@ -1180,10 +1179,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'dog' po polsku?",
             options: [
-              "dom",
+              "piesek",
               "pies",
-              "kot",
-              "książka"
+              "kundel",
+              "czworonóg"
             ],
             correctAnswer: 1
           },
@@ -1191,32 +1190,32 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'cat' po polsku?",
             options: [
-              "dom",
-              "pies", 
+              "kotek",
               "kot",
-              "książka"
+              "mruczek",
+              "dachowiec"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 4,
             question: "Jak powiesz 'book' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "książka"
+              "tom",
+              "książka",
+              "wolumen",
+              "publikacja"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 5,
             question: "Jak powiesz 'car' po polsku?",
             options: [
-              "dom",
+              "pojazd",
               "samochód",
-              "kot",
-              "książka"
+              "auto",
+              "wóz"
             ],
             correctAnswer: 1
           },
@@ -1224,32 +1223,32 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'tree' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "roślina",
               "drzewo",
-              "książka"
+              "krzew",
+              "drzewostan"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 7,
             question: "Jak powiesz 'table' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "stół"
+              "blat",
+              "stół",
+              "mebel",
+              "podstawa"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 8,
             question: "Jak powiesz 'chair' po polsku?",
             options: [
               "krzesło",
-              "pies",
-              "kot",
-              "książka"
+              "siedzisko",
+              "fotel",
+              "stołek"
             ],
             correctAnswer: 0
           },
@@ -1257,23 +1256,23 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'phone' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "komórka",
               "telefon",
-              "książka"
+              "komunikator",
+              "aparat"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 10,
             question: "Jak powiesz 'computer' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "komputer"
+              "laptop",
+              "komputer",
+              "pecet",
+              "sprzęt"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           }
         ]
       },
@@ -1285,87 +1284,87 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'window' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "okienko",
               "okno",
-              "książka"
+              "witryna",
+              "przeszklenie"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 2,
             question: "Jak powiesz 'door' po polsku?",
             options: [
-              "dom",
               "drzwi",
-              "kot",
-              "książka"
+              "wejście",
+              "wrota",
+              "brama"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'bed' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "posłanie",
               "łóżko",
-              "książka"
+              "legowisko",
+              "sypialnia"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 4,
             question: "Jak powiesz 'wall' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "ściana"
+              "przegroda",
+              "ściana",
+              "mur",
+              "ogrodzenie"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 5,
             question: "Jak powiesz 'floor' po polsku?",
             options: [
-              "dom",
               "podłoga",
-              "kot",
-              "książka"
+              "posadzka",
+              "parkiet",
+              "nawierzchnia"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 6,
             question: "Jak powiesz 'ceiling' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "strop",
               "sufit",
-              "książka"
+              "sklepienie",
+              "zwieńczenie"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 7,
             question: "Jak powiesz 'lamp' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "lampa"
+              "światło",
+              "lampa",
+              "żyrandol",
+              "oświetlenie"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 8,
             question: "Jak powiesz 'picture' po polsku?",
             options: [
               "obraz",
-              "pies",
-              "kot",
-              "książka"
+              "malowidło",
+              "grafika",
+              "ilustracja"
             ],
             correctAnswer: 0
           },
@@ -1373,29 +1372,28 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'mirror' po polsku?",
             options: [
-              "dom",
-              "pies",
+              "lusterko",
               "lustro",
-              "książka"
+              "zwierciadło",
+              "reflektor"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 10,
             question: "Jak powiesz 'clock' po polsku?",
             options: [
-              "dom",
-              "pies",
-              "kot",
-              "zegar"
+              "zegarek",
+              "zegar",
+              "chronometr",
+              "czasomierz"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           }
         ]
       }
     ]
-  }
-  ,
+  },
   {
     id: 3,
     name: "Przymiotniki",
@@ -1408,10 +1406,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'big' po polsku?",
             options: [
-              "mały",
-              "duży", 
-              "wysoki",
-              "niski"
+              "wielki",
+              "duży",
+              "ogromny",
+              "masywny"
             ],
             correctAnswer: 1
           },
@@ -1419,43 +1417,43 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'small' po polsku?",
             options: [
-              "duży",
               "mały",
-              "wysoki", 
-              "niski"
+              "drobny",
+              "drobniutki",
+              "miniaturowy"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'tall' po polsku?",
             options: [
-              "duży",
-              "mały",
               "wysoki",
-              "niski"
+              "długi",
+              "wyciągnięty",
+              "wyprostowany"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 4,
             question: "Jak powiesz 'short' po polsku?",
             options: [
-              "duży",
+              "nieduży",
+              "niski",
               "mały",
-              "wysoki",
-              "niski"
+              "drobny"
             ],
-            correctAnswer: 3
+            correctAnswer: 1
           },
           {
             id: 5,
             question: "Jak powiesz 'new' po polsku?",
             options: [
               "nowy",
-              "stary",
-              "młody",
-              "szeroki"
+              "świeży",
+              "niedawny",
+              "aktualny"
             ],
             correctAnswer: 0
           },
@@ -1463,34 +1461,34 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'old' po polsku?",
             options: [
-              "nowy",
               "stary",
-              "młody",
-              "wąski"
+              "starszy",
+              "wiekowy",
+              "zabytkowy"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 7,
             question: "Jak powiesz 'young' po polsku?",
             options: [
-              "nowy",
-              "stary",
               "młody",
-              "szeroki"
+              "młodziutki",
+              "młodociany",
+              "niedojrzały"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 8,
             question: "Jak powiesz 'wide' po polsku?",
             options: [
-              "nowy",
-              "stary",
-              "wąski",
-              "szeroki"
+              "szeroki",
+              "rozległy",
+              "przestronny",
+              "przepastny"
             ],
-            correctAnswer: 3
+            correctAnswer: 0
           }
         ]
       },
@@ -1503,9 +1501,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'good' po polsku?",
             options: [
               "dobry",
-              "zły",
-              "ładny",
-              "brzydki"
+              "świetny",
+              "doskonały",
+              "wspaniały"
             ],
             correctAnswer: 0
           },
@@ -1513,43 +1511,43 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'bad' po polsku?",
             options: [
-              "dobry",
               "zły",
-              "ładny",
-              "brzydki"
+              "niedobry",
+              "kiepski",
+              "marny"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'beautiful' po polsku?",
             options: [
-              "dobry",
-              "zły",
               "ładny",
-              "brzydki"
+              "piękny",
+              "uroczy",
+              "atrakcyjny"
             ],
-            correctAnswer: 2
+            correctAnswer: 1
           },
           {
             id: 4,
             question: "Jak powiesz 'ugly' po polsku?",
             options: [
-              "dobry",
-              "zły",
-              "ładny",
-              "brzydki"
+              "brzydki",
+              "nieładny",
+              "szpetny",
+              "odrażający"
             ],
-            correctAnswer: 3
+            correctAnswer: 0
           },
           {
             id: 5,
             question: "Jak powiesz 'clean' po polsku?",
             options: [
               "czysty",
-              "brudny",
-              "jasny",
-              "ciemny"
+              "schludny",
+              "wypucowany",
+              "wymyty"
             ],
             correctAnswer: 0
           },
@@ -1557,12 +1555,12 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'dirty' po polsku?",
             options: [
-              "czysty", 
               "brudny",
-              "jasny",
-              "ciemny"
+              "zabrudzony",
+              "zanieczyszczony",
+              "zakurzony"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           }
         ]
       },
@@ -1575,9 +1573,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'red' po polsku?",
             options: [
               "czerwony",
-              "niebieski",
-              "żółty",
-              "zielony"
+              "rudy",
+              "karmazynowy",
+              "szkarłatny"
             ],
             correctAnswer: 0
           },
@@ -1585,43 +1583,43 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'blue' po polsku?",
             options: [
-              "czerwony",
               "niebieski",
-              "żółty",
-              "zielony"
+              "błękitny",
+              "granatowy",
+              "lazurowy"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'yellow' po polsku?",
             options: [
-              "czerwony",
-              "niebieski",
               "żółty",
-              "zielony"
+              "złoty",
+              "bursztynowy",
+              "słoneczny"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 4,
             question: "Jak powiesz 'green' po polsku?",
             options: [
-              "czerwony",
-              "niebieski",
-              "żółty",
-              "zielony"
+              "zielony",
+              "szmaragdowy",
+              "oliwkowy",
+              "trawiasty"
             ],
-            correctAnswer: 3
+            correctAnswer: 0
           },
           {
             id: 5,
             question: "Jak powiesz 'black' po polsku?",
             options: [
               "czarny",
-              "biały",
-              "brązowy",
-              "szary"
+              "granatowy",
+              "ciemny",
+              "mroczny"
             ],
             correctAnswer: 0
           },
@@ -1629,12 +1627,12 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'white' po polsku?",
             options: [
-              "czarny",
               "biały",
-              "brązowy",
-              "szary"
+              "jasny",
+              "śnieżny",
+              "perłowy"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           }
         ]
       }
@@ -1653,9 +1651,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'Can I have the menu, please?' po polsku?",
             options: [
               "Czy mogę prosić o menu?",
-              "Gdzie jest toaleta?",
-              "Poproszę rachunek",
-              "Dziękuję, do widzenia"
+              "Czy mogę zobaczyć menu?",
+              "Czy mogę otrzymać menu?",
+              "Czy mogę dostać menu?"
             ],
             correctAnswer: 0
           },
@@ -1663,54 +1661,54 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'I would like to order' po polsku?",
             options: [
-              "Dziękuję bardzo",
               "Chciałbym zamówić",
-              "Gdzie jest toaleta?",
-              "Do widzenia"
+              "Pragnę zamówić",
+              "Życzyłbym sobie zamówić",
+              "Mam ochotę zamówić"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'The bill, please' po polsku?",
             options: [
-              "Dzień dobry",
-              "Do widzenia",
               "Poproszę rachunek",
-              "Smacznego"
+              "Proszę o rachunek",
+              "Proszę o rozliczenie",
+              "Proszę o podsumowanie"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 4,
             question: "Jak powiesz 'What do you recommend?' po polsku?",
             options: [
-              "Jak się masz?",
               "Co pan/pani poleca?",
-              "Gdzie jest toaleta?",
-              "Dziękuję bardzo"
+              "Co pan/pani sugeruje?",
+              "Co pan/pani radzi?",
+              "Co pan/pani proponuje?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 5,
             question: "Jak powiesz 'Enjoy your meal' po polsku?",
             options: [
-              "Dziękuję bardzo",
-              "Do widzenia",
-              "Dzień dobry",
-              "Smacznego"
+              "Smacznego",
+              "Dobrego apetytu",
+              "Smacznego posiłku",
+              "Dobrego smaku"
             ],
-            correctAnswer: 3
+            correctAnswer: 0
           },
           {
             id: 6,
             question: "Jak powiesz 'Is this table free?' po polsku?",
             options: [
               "Czy ten stolik jest wolny?",
-              "Gdzie jest toaleta?",
-              "Poproszę rachunek",
-              "Do widzenia"
+              "Czy ten stolik jest zajęty?",
+              "Czy ten stolik jest dostępny?",
+              "Czy ten stolik jest zarezerwowany?"
             ],
             correctAnswer: 0
           },
@@ -1718,32 +1716,32 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'I am vegetarian' po polsku?",
             options: [
-              "Poproszę rachunek",
-              "Do widzenia",
               "Jestem wegetarianinem",
-              "Dziękuję bardzo"
+              "Jestem wegetarianką",
+              "Nie jem mięsa",
+              "Jestem na diecie wegetariańskiej"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 8,
             question: "Jak powiesz 'How would you like your steak?' po polsku?",
             options: [
-              "Jak się masz?",
-              "Gdzie jest toaleta?",
               "Jak chce pan/pani stek?",
-              "Smacznego"
+              "Jak życzy sobie pan/pani stek?",
+              "Jak przyrządzić stek?",
+              "Jak podać stek?"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'Can I pay by card?' po polsku?",
             options: [
               "Czy mogę zapłacić kartą?",
-              "Poproszę rachunek",
-              "Gdzie jest toaleta?",
-              "Do widzenia"
+              "Czy mogę zapłacić płatnością elektroniczną?",
+              "Czy mogę zapłacić bezgotówkowo?",
+              "Czy mogę zapłacić kartą płatniczą?"
             ],
             correctAnswer: 0
           },
@@ -1751,16 +1749,15 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'Could you bring some water?' po polsku?",
             options: [
-              "Do widzenia",
               "Czy może pan/pani przynieść wodę?",
-              "Smacznego",
-              "Dziękuję bardzo"
+              "Czy może pan/pani podać wodę?",
+              "Czy może pan/pani dostarczyć wodę?",
+              "Czy może pan/pani nalać wody?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           }
         ]
-      }
-      ,
+      },
       {
         id: 3,
         name: "Dialog w urzędzie",
@@ -1770,9 +1767,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'I would like to apply for a residence permit' po polsku?",
             options: [
               "Chciałbym/Chciałabym złożyć wniosek o kartę pobytu",
-              "Gdzie mogę znaleźć formularz?",
-              "Potrzebuję pomocy",
-              "Do widzenia"
+              "Chciałbym/Chciałabym złożyć podanie o kartę pobytu",
+              "Chciałbym/Chciałabym ubiegać się o kartę pobytu",
+              "Chciałbym/Chciałabym starać się o kartę pobytu"
             ],
             correctAnswer: 0
           },
@@ -1780,32 +1777,32 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'Where can I find the form?' po polsku?",
             options: [
-              "Do widzenia",
               "Gdzie mogę znaleźć formularz?",
-              "Potrzebuję pomocy",
-              "Dziękuję bardzo"
+              "Gdzie mogę otrzymać formularz?",
+              "Gdzie mogę pobrać formularz?",
+              "Gdzie mogę wziąć formularz?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'What documents do I need?' po polsku?",
             options: [
-              "Do widzenia",
-              "Gdzie jest toaleta?",
               "Jakie dokumenty są potrzebne?",
-              "Dziękuję bardzo"
+              "Jakie dokumenty są wymagane?",
+              "Jakie dokumenty muszę przedstawić?",
+              "Jakie dokumenty muszę dostarczyć?"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 4,
             question: "Jak powiesz 'I need to make an appointment' po polsku?",
             options: [
               "Muszę umówić się na wizytę",
-              "Gdzie jest toaleta?",
-              "Potrzebuję pomocy",
-              "Do widzenia"
+              "Muszę zarezerwować termin",
+              "Muszę ustalić spotkanie",
+              "Muszę zaplanować wizytę"
             ],
             correctAnswer: 0
           },
@@ -1813,21 +1810,21 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'Could you help me fill out this form?' po polsku?",
             options: [
-              "Do widzenia",
-              "Gdzie jest toaleta?",
               "Czy może mi pan/pani pomóc wypełnić ten formularz?",
-              "Dziękuję bardzo"
+              "Czy może mi pan/pani pomóc w uzupełnieniu tego formularza?",
+              "Czy może mi pan/pani pomóc w wypełnieniu tego dokumentu?",
+              "Czy może mi pan/pani pomóc w uzupełnieniu tego dokumentu?"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 6,
             question: "Jak powiesz 'When should I come to collect the document?' po polsku?",
             options: [
               "Kiedy mam przyjść odebrać dokument?",
-              "Gdzie jest toaleta?",
-              "Potrzebuję pomocy",
-              "Do widzenia"
+              "Kiedy mogę odebrać dokument?",
+              "Kiedy dokument będzie gotowy?",
+              "Kiedy mogę przyjść po dokument?"
             ],
             correctAnswer: 0
           },
@@ -1835,32 +1832,32 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'I need to update my address' po polsku?",
             options: [
-              "Do widzenia",
               "Muszę zaktualizować mój adres",
-              "Potrzebuję pomocy",
-              "Dziękuję bardzo"
+              "Muszę zmienić mój adres",
+              "Muszę zaktualizować dane adresowe",
+              "Muszę zmienić dane adresowe"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 8,
             question: "Jak powiesz 'Is my application ready?' po polsku?",
             options: [
-              "Do widzenia",
-              "Gdzie jest toaleta?",
               "Czy mój wniosek jest gotowy?",
-              "Dziękuję bardzo"
+              "Czy moja aplikacja jest gotowa?",
+              "Czy moje podanie jest gotowe?",
+              "Czy moja sprawa jest załatwiona?"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'Do I need to pay any fees?' po polsku?",
             options: [
               "Czy muszę uiścić jakieś opłaty?",
-              "Gdzie jest toaleta?",
-              "Potrzebuję pomocy",
-              "Do widzenia"
+              "Czy muszę zapłacić jakieś opłaty?",
+              "Czy muszę ponieść jakieś koszty?",
+              "Czy muszę zapłacić jakieś koszty?"
             ],
             correctAnswer: 0
           },
@@ -1868,12 +1865,12 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'Where can I get a translation certified?' po polsku?",
             options: [
-              "Do widzenia",
               "Gdzie mogę uzyskać tłumaczenie przysięgłe?",
-              "Potrzebuję pomocy",
-              "Dziękuję bardzo"
+              "Gdzie mogę otrzymać tłumaczenie przysięgłe?",
+              "Gdzie mogę zrobić tłumaczenie przysięgłe?",
+              "Gdzie mogę zamówić tłumaczenie przysięgłe?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           }
         ]
       },
@@ -1886,53 +1883,53 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'Your passport, please' po polsku?",
             options: [
               "Poproszę paszport",
-              "Do widzenia",
-              "Dziękuję bardzo",
-              "Gdzie jest wyjście?"
+              "Proszę o paszport",
+              "Proszę pokazać paszport",
+              "Proszę przedstawić paszport"
             ],
             correctAnswer: 0
           },
           {
-            id: 2, 
+            id: 2,
             question: "Jak powiesz 'What is the purpose of your visit?' po polsku?",
             options: [
-              "Jak się nazywasz?",
               "Jaki jest cel twojej wizyty?",
-              "Skąd przyjechałeś?",
-              "Jak długo zostajesz?"
+              "Jaki jest powód twojej wizyty?",
+              "W jakim celu przyjechałeś?",
+              "Po co przyjechałeś?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 3,
             question: "Jak powiesz 'How long are you planning to stay?' po polsku?",
             options: [
-              "Skąd przyjechałeś?",
-              "Gdzie się zatrzymasz?",
               "Jak długo planujesz zostać?",
-              "Czy masz coś do oclenia?"
+              "Jak długo zamierzasz zostać?",
+              "Jak długo zamierzasz przebywać?",
+              "Jak długo planujesz przebywać?"
             ],
-            correctAnswer: 2
+            correctAnswer: 0
           },
           {
             id: 4,
             question: "Jak powiesz 'Where will you be staying?' po polsku?",
             options: [
-              "Jak długo zostajesz?",
-              "Skąd przyjechałeś?",
-              "Jaki jest cel twojej wizyty?",
-              "Gdzie się zatrzymasz?"
+              "Gdzie się zatrzymasz?",
+              "Gdzie będziesz mieszkać?",
+              "Gdzie będziesz nocować?",
+              "Gdzie będziesz przebywać?"
             ],
-            correctAnswer: 3
+            correctAnswer: 0
           },
           {
             id: 5,
             question: "Jak powiesz 'Do you have anything to declare?' po polsku?",
             options: [
               "Czy masz coś do oclenia?",
-              "Gdzie się zatrzymasz?",
-              "Jak długo zostajesz?",
-              "Jaki jest cel twojej wizyty?"
+              "Czy masz coś do zadeklarowania?",
+              "Czy masz coś do zgłoszenia?",
+              "Czy masz coś do ujawnienia?"
             ],
             correctAnswer: 0
           },
@@ -1940,43 +1937,43 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'Where are you coming from?' po polsku?",
             options: [
-              "Gdzie się zatrzymasz?",
               "Skąd przyjechałeś?",
-              "Jak długo zostajesz?",
-              "Jaki jest cel twojej wizyty?"
+              "Z jakiego kraju przyjechałeś?",
+              "Z jakiego miejsca przyjechałeś?",
+              "Z jakiego kierunku przyjechałeś?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 7,
             question: "Jak powiesz 'Please open your luggage' po polsku?",
             options: [
-              "Proszę pokazać bilet",
               "Proszę otworzyć bagaż",
-              "Proszę pokazać paszport",
-              "Proszę przejść dalej"
+              "Proszę otworzyć walizkę",
+              "Proszę otworzyć plecak",
+              "Proszę otworzyć torbę"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 8,
             question: "Jak powiesz 'Business or pleasure?' po polsku?",
             options: [
-              "Gdzie się zatrzymasz?",
               "Służbowo czy prywatnie?",
-              "Jak długo zostajesz?",
-              "Skąd przyjechałeś?"
+              "W interesach czy dla przyjemności?",
+              "W sprawach służbowych czy prywatnych?",
+              "W celach biznesowych czy rekreacyjnych?"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'Please proceed to customs' po polsku?",
             options: [
               "Proszę przejść do kontroli celnej",
-              "Proszę pokazać paszport",
-              "Proszę otworzyć bagaż",
-              "Proszę przejść dalej"
+              "Proszę udać się do celników",
+              "Proszę przejść do odprawy celnej",
+              "Proszę udać się do kontroli celnej"
             ],
             correctAnswer: 0
           },
@@ -1984,12 +1981,12 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'Your visa has expired' po polsku?",
             options: [
-              "Proszę przejść dalej",
               "Twoja wiza wygasła",
-              "Proszę otworzyć bagaż",
-              "Gdzie się zatrzymasz?"
+              "Twoja wiza jest nieważna",
+              "Twoja wiza straciła ważność",
+              "Twoja wiza nie jest już ważna"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           }
         ]
       }

@@ -121,7 +121,6 @@ export default function Quiz({ quizSet, onBack }: QuizProps) {
                   onClick={() => !showFeedback && handleAnswer(index)}
                   disabled={showFeedback}
                 >
-                  <div className="flex items-center w-full flex-wrap">
                     <span className="flex-grow break-words whitespace-pre-wrap text-left">{option}</span>
                     {showFeedback && isSelected && (
                       isCorrect ? (
@@ -133,7 +132,6 @@ export default function Quiz({ quizSet, onBack }: QuizProps) {
                     {showFeedback && isCorrectAnswer && !isSelected && (
                       <Check className="h-5 w-5 ml-3 flex-shrink-0" />
                     )}
-                  </div>
                 </Button>
               );
             })}

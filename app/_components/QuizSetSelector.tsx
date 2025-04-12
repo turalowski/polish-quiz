@@ -32,14 +32,14 @@ export default function QuizSetSelector({ topic, onSelectQuizSet, onBack }: Quiz
             <Button
               key={quizSet.id}
               variant="outline"
-              className="w-full justify-start h-auto py-4 px-6"
+              className="w-full min-h-[3.5rem] px-6 py-4 text-left whitespace-pre-wrap"
               onClick={() => onSelectQuizSet(quizSet)}
             >
-              {quizSet.name}
+              <span className="flex-grow break-words whitespace-pre-wrap text-left">{quizSet.name}</span>
             </Button>
           ))}
         </CardContent>
       </Card>
     </div>
   );
-} 
+}

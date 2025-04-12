@@ -1156,4 +1156,843 @@ export const topics: Topic[] = [
       }
     ]
   }
+  ,
+  {
+    id: 2,
+    name: "Rzeczowniki",
+    quizSets: [
+      {
+        id: 1,
+        name: "Podstawowe rzeczowniki 1",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'house' po polsku?",
+            options: [
+              "pies",
+              "dom",
+              "kot", 
+              "książka"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'dog' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'cat' po polsku?",
+            options: [
+              "dom",
+              "pies", 
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'book' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'car' po polsku?",
+            options: [
+              "dom",
+              "samochód",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'tree' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "drzewo",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'table' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "stół"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'chair' po polsku?",
+            options: [
+              "krzesło",
+              "pies",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 9,
+            question: "Jak powiesz 'phone' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "telefon",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 10,
+            question: "Jak powiesz 'computer' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "komputer"
+            ],
+            correctAnswer: 3
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: "Podstawowe rzeczowniki 2",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'window' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "okno",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'door' po polsku?",
+            options: [
+              "dom",
+              "drzwi",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'bed' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "łóżko",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'wall' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "ściana"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'floor' po polsku?",
+            options: [
+              "dom",
+              "podłoga",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'ceiling' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "sufit",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'lamp' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "lampa"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'picture' po polsku?",
+            options: [
+              "obraz",
+              "pies",
+              "kot",
+              "książka"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 9,
+            question: "Jak powiesz 'mirror' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "lustro",
+              "książka"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 10,
+            question: "Jak powiesz 'clock' po polsku?",
+            options: [
+              "dom",
+              "pies",
+              "kot",
+              "zegar"
+            ],
+            correctAnswer: 3
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    id: 3,
+    name: "Przymiotniki",
+    quizSets: [
+      {
+        id: 1,
+        name: "Podstawowe przymiotniki - rozmiar i wiek",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'big' po polsku?",
+            options: [
+              "mały",
+              "duży", 
+              "wysoki",
+              "niski"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'small' po polsku?",
+            options: [
+              "duży",
+              "mały",
+              "wysoki", 
+              "niski"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'tall' po polsku?",
+            options: [
+              "duży",
+              "mały",
+              "wysoki",
+              "niski"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'short' po polsku?",
+            options: [
+              "duży",
+              "mały",
+              "wysoki",
+              "niski"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'new' po polsku?",
+            options: [
+              "nowy",
+              "stary",
+              "młody",
+              "szeroki"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'old' po polsku?",
+            options: [
+              "nowy",
+              "stary",
+              "młody",
+              "wąski"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'young' po polsku?",
+            options: [
+              "nowy",
+              "stary",
+              "młody",
+              "szeroki"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'wide' po polsku?",
+            options: [
+              "nowy",
+              "stary",
+              "wąski",
+              "szeroki"
+            ],
+            correctAnswer: 3
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: "Podstawowe przymiotniki - jakość i wygląd",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'good' po polsku?",
+            options: [
+              "dobry",
+              "zły",
+              "ładny",
+              "brzydki"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'bad' po polsku?",
+            options: [
+              "dobry",
+              "zły",
+              "ładny",
+              "brzydki"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'beautiful' po polsku?",
+            options: [
+              "dobry",
+              "zły",
+              "ładny",
+              "brzydki"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'ugly' po polsku?",
+            options: [
+              "dobry",
+              "zły",
+              "ładny",
+              "brzydki"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'clean' po polsku?",
+            options: [
+              "czysty",
+              "brudny",
+              "jasny",
+              "ciemny"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'dirty' po polsku?",
+            options: [
+              "czysty", 
+              "brudny",
+              "jasny",
+              "ciemny"
+            ],
+            correctAnswer: 1
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "Podstawowe przymiotniki - kolory",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'red' po polsku?",
+            options: [
+              "czerwony",
+              "niebieski",
+              "żółty",
+              "zielony"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'blue' po polsku?",
+            options: [
+              "czerwony",
+              "niebieski",
+              "żółty",
+              "zielony"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'yellow' po polsku?",
+            options: [
+              "czerwony",
+              "niebieski",
+              "żółty",
+              "zielony"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'green' po polsku?",
+            options: [
+              "czerwony",
+              "niebieski",
+              "żółty",
+              "zielony"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'black' po polsku?",
+            options: [
+              "czarny",
+              "biały",
+              "brązowy",
+              "szary"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'white' po polsku?",
+            options: [
+              "czarny",
+              "biały",
+              "brązowy",
+              "szary"
+            ],
+            correctAnswer: 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 4,
+    name: "Dialogi",
+    quizSets: [
+      {
+        id: 1,
+        name: "W restauracji",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'Can I have the menu, please?' po polsku?",
+            options: [
+              "Czy mogę prosić o menu?",
+              "Gdzie jest toaleta?",
+              "Poproszę rachunek",
+              "Dziękuję, do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'I would like to order' po polsku?",
+            options: [
+              "Dziękuję bardzo",
+              "Chciałbym zamówić",
+              "Gdzie jest toaleta?",
+              "Do widzenia"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'The bill, please' po polsku?",
+            options: [
+              "Dzień dobry",
+              "Do widzenia",
+              "Poproszę rachunek",
+              "Smacznego"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'What do you recommend?' po polsku?",
+            options: [
+              "Jak się masz?",
+              "Co pan/pani poleca?",
+              "Gdzie jest toaleta?",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'Enjoy your meal' po polsku?",
+            options: [
+              "Dziękuję bardzo",
+              "Do widzenia",
+              "Dzień dobry",
+              "Smacznego"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'Is this table free?' po polsku?",
+            options: [
+              "Czy ten stolik jest wolny?",
+              "Gdzie jest toaleta?",
+              "Poproszę rachunek",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'I am vegetarian' po polsku?",
+            options: [
+              "Poproszę rachunek",
+              "Do widzenia",
+              "Jestem wegetarianinem",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'How would you like your steak?' po polsku?",
+            options: [
+              "Jak się masz?",
+              "Gdzie jest toaleta?",
+              "Jak chce pan/pani stek?",
+              "Smacznego"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 9,
+            question: "Jak powiesz 'Can I pay by card?' po polsku?",
+            options: [
+              "Czy mogę zapłacić kartą?",
+              "Poproszę rachunek",
+              "Gdzie jest toaleta?",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 10,
+            question: "Jak powiesz 'Could you bring some water?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Czy może pan/pani przynieść wodę?",
+              "Smacznego",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 1
+          }
+        ]
+      }
+      ,
+      {
+        id: 3,
+        name: "Dialog w urzędzie",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'I would like to apply for a residence permit' po polsku?",
+            options: [
+              "Chciałbym/Chciałabym złożyć wniosek o kartę pobytu",
+              "Gdzie mogę znaleźć formularz?",
+              "Potrzebuję pomocy",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 2,
+            question: "Jak powiesz 'Where can I find the form?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Gdzie mogę znaleźć formularz?",
+              "Potrzebuję pomocy",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'What documents do I need?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Gdzie jest toaleta?",
+              "Jakie dokumenty są potrzebne?",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'I need to make an appointment' po polsku?",
+            options: [
+              "Muszę umówić się na wizytę",
+              "Gdzie jest toaleta?",
+              "Potrzebuję pomocy",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'Could you help me fill out this form?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Gdzie jest toaleta?",
+              "Czy może mi pan/pani pomóc wypełnić ten formularz?",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'When should I come to collect the document?' po polsku?",
+            options: [
+              "Kiedy mam przyjść odebrać dokument?",
+              "Gdzie jest toaleta?",
+              "Potrzebuję pomocy",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'I need to update my address' po polsku?",
+            options: [
+              "Do widzenia",
+              "Muszę zaktualizować mój adres",
+              "Potrzebuję pomocy",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'Is my application ready?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Gdzie jest toaleta?",
+              "Czy mój wniosek jest gotowy?",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 9,
+            question: "Jak powiesz 'Do I need to pay any fees?' po polsku?",
+            options: [
+              "Czy muszę uiścić jakieś opłaty?",
+              "Gdzie jest toaleta?",
+              "Potrzebuję pomocy",
+              "Do widzenia"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 10,
+            question: "Jak powiesz 'Where can I get a translation certified?' po polsku?",
+            options: [
+              "Do widzenia",
+              "Gdzie mogę uzyskać tłumaczenie przysięgłe?",
+              "Potrzebuję pomocy",
+              "Dziękuję bardzo"
+            ],
+            correctAnswer: 1
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "Kontrola paszportowa",
+        questions: [
+          {
+            id: 1,
+            question: "Jak powiesz 'Your passport, please' po polsku?",
+            options: [
+              "Poproszę paszport",
+              "Do widzenia",
+              "Dziękuję bardzo",
+              "Gdzie jest wyjście?"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 2, 
+            question: "Jak powiesz 'What is the purpose of your visit?' po polsku?",
+            options: [
+              "Jak się nazywasz?",
+              "Jaki jest cel twojej wizyty?",
+              "Skąd przyjechałeś?",
+              "Jak długo zostajesz?"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 3,
+            question: "Jak powiesz 'How long are you planning to stay?' po polsku?",
+            options: [
+              "Skąd przyjechałeś?",
+              "Gdzie się zatrzymasz?",
+              "Jak długo planujesz zostać?",
+              "Czy masz coś do oclenia?"
+            ],
+            correctAnswer: 2
+          },
+          {
+            id: 4,
+            question: "Jak powiesz 'Where will you be staying?' po polsku?",
+            options: [
+              "Jak długo zostajesz?",
+              "Skąd przyjechałeś?",
+              "Jaki jest cel twojej wizyty?",
+              "Gdzie się zatrzymasz?"
+            ],
+            correctAnswer: 3
+          },
+          {
+            id: 5,
+            question: "Jak powiesz 'Do you have anything to declare?' po polsku?",
+            options: [
+              "Czy masz coś do oclenia?",
+              "Gdzie się zatrzymasz?",
+              "Jak długo zostajesz?",
+              "Jaki jest cel twojej wizyty?"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 6,
+            question: "Jak powiesz 'Where are you coming from?' po polsku?",
+            options: [
+              "Gdzie się zatrzymasz?",
+              "Skąd przyjechałeś?",
+              "Jak długo zostajesz?",
+              "Jaki jest cel twojej wizyty?"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 7,
+            question: "Jak powiesz 'Please open your luggage' po polsku?",
+            options: [
+              "Proszę pokazać bilet",
+              "Proszę otworzyć bagaż",
+              "Proszę pokazać paszport",
+              "Proszę przejść dalej"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 8,
+            question: "Jak powiesz 'Business or pleasure?' po polsku?",
+            options: [
+              "Gdzie się zatrzymasz?",
+              "Służbowo czy prywatnie?",
+              "Jak długo zostajesz?",
+              "Skąd przyjechałeś?"
+            ],
+            correctAnswer: 1
+          },
+          {
+            id: 9,
+            question: "Jak powiesz 'Please proceed to customs' po polsku?",
+            options: [
+              "Proszę przejść do kontroli celnej",
+              "Proszę pokazać paszport",
+              "Proszę otworzyć bagaż",
+              "Proszę przejść dalej"
+            ],
+            correctAnswer: 0
+          },
+          {
+            id: 10,
+            question: "Jak powiesz 'Your visa has expired' po polsku?",
+            options: [
+              "Proszę przejść dalej",
+              "Twoja wiza wygasła",
+              "Proszę otworzyć bagaż",
+              "Gdzie się zatrzymasz?"
+            ],
+            correctAnswer: 1
+          }
+        ]
+      }
+    ]
+  }
 ]; 

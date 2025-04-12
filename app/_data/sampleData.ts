@@ -13,10 +13,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to be' po polsku?",
             options: [
-              "bywać",
-              "być",
               "istnieć",
-              "znajdować się"
+              "być",
+              "znajdować się",
+              "przebywać"
             ],
             correctAnswer: 1
           },
@@ -27,7 +27,7 @@ export const topics: Topic[] = [
               "posiadać",
               "mieć",
               "dysponować",
-              "własność"
+              "władać"
             ],
             correctAnswer: 1
           },
@@ -38,7 +38,7 @@ export const topics: Topic[] = [
               "wykonywać",
               "działać",
               "robić",
-              "prowadzić"
+              "pracować"
             ],
             correctAnswer: 2
           },
@@ -57,9 +57,9 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to go' po polsku?",
             options: [
-              "przechadzać",
-              "jechać",
-              "poruszać się",
+              "spacerować",
+              "iść",
+              "podróżować",
               "przemieszczać się"
             ],
             correctAnswer: 1
@@ -71,7 +71,7 @@ export const topics: Topic[] = [
               "otrzymywać",
               "nabywać",
               "dostać",
-              "pozyskiwać"
+              "zdobywać"
             ],
             correctAnswer: 2
           },
@@ -80,9 +80,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'to make' po polsku?",
             options: [
               "wytwarzać",
-              "tworzyć",
+              "kreować",
               "produkować",
-              "zrobić"
+              "robić"
             ],
             correctAnswer: 3
           },
@@ -91,9 +91,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'to know' po polsku?",
             options: [
               "znać",
-              "wiedzieć",
               "rozumieć",
-              "pojmować"
+              "pojmować",
+              "orientować się"
             ],
             correctAnswer: 0
           },
@@ -101,10 +101,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to think' po polsku?",
             options: [
-              "rozmyślać",
-              "dumać",
+              "rozważać",
+              "kontemplować",
               "myśleć",
-              "reflektować"
+              "analizować"
             ],
             correctAnswer: 2
           },
@@ -112,9 +112,9 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to see' po polsku?",
             options: [
+              "obserwować",
+              "dostrzegać",
               "spoglądać",
-              "oglądać",
-              "przyglądać się",
               "widzieć"
             ],
             correctAnswer: 3
@@ -129,10 +129,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to come' po polsku?",
             options: [
-              "przybywać",
+              "zbliżać się",
               "nadchodzić",
-              "przyjechać",
-              "przybyć"
+              "przyjść",
+              "pojawiać się"
             ],
             correctAnswer: 2
           },
@@ -142,8 +142,8 @@ export const topics: Topic[] = [
             options: [
               "pragnąć",
               "chcieć",
-              "życzyć sobie",
-              "dążyć"
+              "pożądać",
+              "życzyć sobie"
             ],
             correctAnswer: 1
           },
@@ -151,7 +151,7 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to look' po polsku?",
             options: [
-              "spoglądać",
+              "obserwować",
               "oglądać",
               "patrzeć",
               "przyglądać się"
@@ -165,7 +165,7 @@ export const topics: Topic[] = [
               "wykorzystywać",
               "używać",
               "stosować",
-              "zastosować"
+              "operować"
             ],
             correctAnswer: 1
           },
@@ -173,10 +173,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to find' po polsku?",
             options: [
-              "odnajdywać",
-              "znajdować",
+              "odkrywać",
+              "poszukiwać",
               "znaleźć",
-              "odkrywać"
+              "natrafić"
             ],
             correctAnswer: 2
           },
@@ -184,10 +184,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to give' po polsku?",
             options: [
-              "wręczać",
-              "dawać",
+              "przekazywać",
+              "ofiarować",
               "dać",
-              "przekazywać"
+              "wręczać"
             ],
             correctAnswer: 2
           },
@@ -196,8 +196,8 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'to tell' po polsku?",
             options: [
               "opowiadać",
-              "mówić",
-              "informować",
+              "relacjonować",
+              "komunikować",
               "powiedzieć"
             ],
             correctAnswer: 3
@@ -207,9 +207,9 @@ export const topics: Topic[] = [
             question: "Jak powiesz 'to work' po polsku?",
             options: [
               "pracować",
-              "zarabiać",
+              "funkcjonować",
               "działać",
-              "funkcjonować"
+              "operować"
             ],
             correctAnswer: 0
           },
@@ -217,10 +217,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to call' po polsku?",
             options: [
-              "telefonować",
-              "dzwonić",
               "kontaktować się",
-              "komunikować się"
+              "dzwonić",
+              "telefonować",
+              "łączyć się"
             ],
             correctAnswer: 1
           },
@@ -228,10 +228,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to try' po polsku?",
             options: [
-              "próbować",
+              "testować",
               "usiłować",
-              "spróbować",
-              "dążyć"
+              "próbować",
+              "starać się"
             ],
             correctAnswer: 2
           }
@@ -247,8 +247,8 @@ export const topics: Topic[] = [
             options: [
               "zapytywać",
               "pytać",
-              "interesować się",
-              "dopytywać"
+              "dociekać",
+              "dowiadywać się"
             ],
             correctAnswer: 1
           },
@@ -258,8 +258,8 @@ export const topics: Topic[] = [
             options: [
               "potrzebować",
               "wymagać",
-              "potrzebny",
-              "niezbędny"
+              "musieć",
+              "pragnąć"
             ],
             correctAnswer: 0
           },
@@ -270,7 +270,7 @@ export const topics: Topic[] = [
               "odczuwać",
               "czuć",
               "doznawać",
-              "przeżywać"
+              "doświadczać"
             ],
             correctAnswer: 1
           },
@@ -278,10 +278,10 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to become' po polsku?",
             options: [
-              "stawać się",
-              "zostać",
               "przemieniać się",
-              "zmieniać się"
+              "zostać",
+              "przekształcać się",
+              "ewoluować"
             ],
             correctAnswer: 1
           },
@@ -289,10 +289,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to leave' po polsku?",
             options: [
-              "wyjeżdżać",
+              "oddalać się",
               "wyjechać",
               "opuszczać",
-              "wychodzić"
+              "odchodzić"
             ],
             correctAnswer: 1
           },
@@ -300,10 +300,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to put' po polsku?",
             options: [
-              "kłaść",
               "umieszczać",
+              "stawiać",
               "położyć",
-              "stawiać"
+              "lokować"
             ],
             correctAnswer: 2
           },
@@ -313,8 +313,8 @@ export const topics: Topic[] = [
             options: [
               "oznaczać",
               "znaczyć",
-              "wyrażać",
-              "komunikować"
+              "wskazywać",
+              "sugerować"
             ],
             correctAnswer: 1
           },
@@ -325,7 +325,7 @@ export const topics: Topic[] = [
               "trzymać",
               "zachowywać",
               "przechowywać",
-              "konserwować"
+              "utrzymywać"
             ],
             correctAnswer: 0
           },
@@ -333,10 +333,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to let' po polsku?",
             options: [
-              "pozwalać",
+              "umożliwiać",
               "pozwolić",
-              "zezwalać",
-              "dopuszczać"
+              "dopuszczać",
+              "zezwalać"
             ],
             correctAnswer: 1
           },
@@ -344,10 +344,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to begin' po polsku?",
             options: [
-              "zaczynać",
               "rozpoczynać",
+              "inicjować",
               "zacząć",
-              "zainicjować"
+              "startować"
             ],
             correctAnswer: 2
           }
@@ -361,10 +361,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to seem' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "sprawiać wrażenie",
+              "wyglądać",
               "wydawać się",
-              "mówić"
+              "jawić się"
             ],
             correctAnswer: 2
           },
@@ -372,10 +372,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to help' po polsku?",
             options: [
-              "być",
+              "wspierać",
               "pomagać",
-              "robić",
-              "mówić"
+              "asystować",
+              "służyć pomocą"
             ],
             correctAnswer: 1
           },
@@ -383,10 +383,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to talk' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "konwersować",
+              "dyskutować",
               "rozmawiać",
-              "mówić"
+              "gadać"
             ],
             correctAnswer: 2
           },
@@ -394,9 +394,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to turn' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "kręcić",
+              "rotować",
+              "wirować",
               "obracać"
             ],
             correctAnswer: 3
@@ -405,10 +405,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to start' po polsku?",
             options: [
-              "być",
+              "inicjować",
               "zacząć",
-              "robić",
-              "mówić"
+              "rozpoczynać",
+              "inaugurować"
             ],
             correctAnswer: 1
           },
@@ -416,10 +416,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to show' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "demonstrować",
+              "prezentować",
               "pokazać",
-              "mówić"
+              "ukazywać"
             ],
             correctAnswer: 2
           },
@@ -427,9 +427,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to hear' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "usłyszeć",
+              "wysłuchać",
+              "odbierać",
               "słyszeć"
             ],
             correctAnswer: 3
@@ -438,21 +438,21 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to play' po polsku?",
             options: [
-              "być",
               "grać",
-              "robić",
-              "mówić"
+              "bawić się",
+              "zabawiać się",
+              "rozgrywać"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to run' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "pędzić",
+              "gnać",
               "biegać",
-              "mówić"
+              "galopować"
             ],
             correctAnswer: 2
           },
@@ -460,10 +460,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to move' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "poruszać się",
+              "przemieszczać się",
               "przesuwać",
-              "mówić"
+              "transportować"
             ],
             correctAnswer: 2
           }
@@ -477,10 +477,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to like' po polsku?",
             options: [
-              "być",
+              "adorować",
               "lubić",
-              "robić",
-              "mówić"
+              "uwielbiać",
+              "sympatyzować"
             ],
             correctAnswer: 1
           },
@@ -488,10 +488,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to live' po polsku?",
             options: [
-              "być",
+              "egzystować",
               "żyć",
-              "robić",
-              "mówić"
+              "bytować",
+              "mieszkać"
             ],
             correctAnswer: 1
           },
@@ -499,10 +499,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to believe' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "ufać",
+              "sądzić",
               "wierzyć",
-              "mówić"
+              "przypuszczać"
             ],
             correctAnswer: 2
           },
@@ -510,9 +510,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to hold' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "chwytać",
+              "dzierżyć",
+              "utrzymywać",
               "trzymać"
             ],
             correctAnswer: 3
@@ -521,10 +521,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to bring' po polsku?",
             options: [
-              "być",
+              "dostarczać",
               "przynieść",
-              "robić",
-              "mówić"
+              "transportować",
+              "doręczać"
             ],
             correctAnswer: 1
           },
@@ -532,10 +532,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to happen' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "nastąpić",
+              "wydarzyć się",
               "zdarzyć się",
-              "mówić"
+              "zajść"
             ],
             correctAnswer: 2
           },
@@ -543,9 +543,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to write' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "notować",
+              "zapisywać",
+              "kreślić",
               "pisać"
             ],
             correctAnswer: 3
@@ -554,10 +554,10 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to provide' po polsku?",
             options: [
-              "być",
+              "zaopatrywać",
               "dostarczyć",
-              "robić",
-              "mówić"
+              "zapewniać",
+              "oferować"
             ],
             correctAnswer: 1
           },
@@ -565,10 +565,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to sit' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "spoczywać",
+              "zasiadać",
               "siedzieć",
-              "mówić"
+              "przysiadać"
             ],
             correctAnswer: 2
           },
@@ -576,10 +576,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to stand' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wznosić się",
+              "znajdować się",
               "stać",
-              "mówić"
+              "sterczeć"
             ],
             correctAnswer: 2
           }
@@ -593,10 +593,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to lose' po polsku?",
             options: [
-              "być",
+              "tracić",
               "przegrać",
-              "robić",
-              "mówić"
+              "gubić",
+              "utracić"
             ],
             correctAnswer: 1
           },
@@ -604,10 +604,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to pay' po polsku?",
             options: [
-              "być",
+              "opłacać",
               "płacić",
-              "robić",
-              "mówić"
+              "regulować",
+              "uiszczać"
             ],
             correctAnswer: 1
           },
@@ -615,10 +615,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to meet' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "napotkać",
+              "zobaczyć się",
               "spotkać",
-              "mówić"
+              "natknąć się"
             ],
             correctAnswer: 2
           },
@@ -626,9 +626,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to include' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "obejmować",
+              "włączać",
+              "uwzględniać",
               "zawierać"
             ],
             correctAnswer: 3
@@ -637,10 +637,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to continue' po polsku?",
             options: [
-              "być",
+              "trwać",
               "kontynuować",
-              "robić",
-              "mówić"
+              "podtrzymywać",
+              "przedłużać"
             ],
             correctAnswer: 1
           },
@@ -648,10 +648,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to set' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "umieszczać",
+              "kłaść",
               "ustawić",
-              "mówić"
+              "pozycjonować"
             ],
             correctAnswer: 2
           },
@@ -659,9 +659,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to learn' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "studiować",
+              "poznawać",
+              "przyswajać",
               "uczyć się"
             ],
             correctAnswer: 3
@@ -670,21 +670,21 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to change' po polsku?",
             options: [
-              "być",
               "zmieniać",
-              "robić",
-              "mówić"
+              "modyfikować",
+              "przekształcać",
+              "transformować"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to lead' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "kierować",
+              "przewodzić",
               "prowadzić",
-              "mówić"
+              "dowodzić"
             ],
             correctAnswer: 2
           },
@@ -692,10 +692,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to understand' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "pojmować",
+              "ogarniać",
               "rozumieć",
-              "mówić"
+              "orientować się"
             ],
             correctAnswer: 2
           }
@@ -709,10 +709,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to watch' po polsku?",
             options: [
-              "być",
+              "obserwować",
               "oglądać",
-              "robić",
-              "mówić"
+              "patrzeć",
+              "przyglądać się"
             ],
             correctAnswer: 1
           },
@@ -720,10 +720,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to follow' po polsku?",
             options: [
-              "być",
+              "śledzić",
               "podążać",
-              "robić",
-              "mówić"
+              "gonić",
+              "tropić"
             ],
             correctAnswer: 1
           },
@@ -731,10 +731,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to stop' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "przestać",
+              "kończyć",
               "zatrzymać",
-              "mówić"
+              "przerywać"
             ],
             correctAnswer: 2
           },
@@ -742,9 +742,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to create' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "kreować",
+              "formować",
+              "budować",
               "tworzyć"
             ],
             correctAnswer: 3
@@ -753,10 +753,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to speak' po polsku?",
             options: [
-              "być",
+              "rozmawiać",
               "mówić",
-              "robić",
-              "mówić"
+              "wypowiadać się",
+              "gadać"
             ],
             correctAnswer: 1
           },
@@ -764,10 +764,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to read' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "studiować",
+              "przeglądać",
               "czytać",
-              "mówić"
+              "odczytywać"
             ],
             correctAnswer: 2
           },
@@ -775,9 +775,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to allow' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "umożliwiać",
+              "dopuszczać",
+              "zezwalać",
               "pozwalać"
             ],
             correctAnswer: 3
@@ -786,21 +786,21 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to add' po polsku?",
             options: [
-              "być",
               "dodawać",
-              "robić",
-              "mówić"
+              "dołączać",
+              "sumować",
+              "dokładać"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to spend' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wydawać",
+              "inwestować",
               "spędzać",
-              "mówić"
+              "konsumować"
             ],
             correctAnswer: 2
           },
@@ -808,10 +808,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to grow' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wzrastać",
+              "powiększać się",
               "rosnąć",
-              "mówić"
+              "rozwijać się"
             ],
             correctAnswer: 2
           }
@@ -825,10 +825,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to open' po polsku?",
             options: [
-              "być",
+              "rozchylać",
               "otwierać",
-              "robić",
-              "mówić"
+              "uchylać",
+              "rozwierać"
             ],
             correctAnswer: 1
           },
@@ -836,10 +836,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to walk' po polsku?",
             options: [
-              "być",
+              "spacerować",
               "chodzić",
-              "robić",
-              "mówić"
+              "kroczyć",
+              "maszerować"
             ],
             correctAnswer: 1
           },
@@ -847,10 +847,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to win' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "triumfować",
+              "zwyciężać",
               "wygrać",
-              "mówić"
+              "pokonywać"
             ],
             correctAnswer: 2
           },
@@ -858,9 +858,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to offer' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "proponować",
+              "sugerować",
+              "przedstawiać",
               "oferować"
             ],
             correctAnswer: 3
@@ -869,10 +869,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to remember' po polsku?",
             options: [
-              "być",
+              "przypominać sobie",
               "pamiętać",
-              "robić",
-              "mówić"
+              "wspominać",
+              "zachowywać w pamięci"
             ],
             correctAnswer: 1
           },
@@ -880,10 +880,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to love' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "uwielbiać",
+              "adorować",
               "kochać",
-              "mówić"
+              "miłować"
             ],
             correctAnswer: 2
           },
@@ -891,9 +891,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to consider' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "przemyśleć",
+              "zastanawiać się",
+              "analizować",
               "rozważać"
             ],
             correctAnswer: 3
@@ -902,10 +902,10 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to appear' po polsku?",
             options: [
-              "być",
+              "wyłaniać się",
               "pojawić się",
-              "robić",
-              "mówić"
+              "ukazywać się",
+              "pokazywać się"
             ],
             correctAnswer: 1
           },
@@ -913,10 +913,10 @@ export const topics: Topic[] = [
             id: 9,
             question: "Jak powiesz 'to buy' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "nabywać",
+              "zakupić",
               "kupić",
-              "mówić"
+              "nabyć"
             ],
             correctAnswer: 2
           },
@@ -924,10 +924,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to wait' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "oczekiwać",
+              "wyczekiwać",
               "czekać",
-              "mówić"
+              "wypatrywać"
             ],
             correctAnswer: 2
           }
@@ -941,10 +941,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to serve' po polsku?",
             options: [
-              "być",
+              "obsługiwać",
               "służyć",
-              "robić",
-              "mówić"
+              "usługiwać",
+              "pomagać"
             ],
             correctAnswer: 1
           },
@@ -952,10 +952,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to die' po polsku?",
             options: [
-              "być",
+              "konać",
               "umrzeć",
-              "robić",
-              "mówić"
+              "ginąć",
+              "odchodzić"
             ],
             correctAnswer: 1
           },
@@ -963,10 +963,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to send' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "przekazywać",
+              "dostarczać",
               "wysłać",
-              "mówić"
+              "ekspediować"
             ],
             correctAnswer: 2
           },
@@ -974,9 +974,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to expect' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "przewidywać",
+              "spodziewać się",
+              "zakładać",
               "oczekiwać"
             ],
             correctAnswer: 3
@@ -985,10 +985,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to build' po polsku?",
             options: [
-              "być",
+              "konstruować",
               "budować",
-              "robić",
-              "mówić"
+              "wznosić",
+              "stawiać"
             ],
             correctAnswer: 1
           },
@@ -996,10 +996,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to stay' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "przebywać",
+              "mieszkać",
               "zostać",
-              "mówić"
+              "pozostawać"
             ],
             correctAnswer: 2
           },
@@ -1007,9 +1007,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to fall' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "spadać",
+              "opadać",
+              "lecieć",
               "upaść"
             ],
             correctAnswer: 3
@@ -1018,21 +1018,21 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to cut' po polsku?",
             options: [
-              "być",
               "ciąć",
-              "robić",
-              "mówić"
+              "kroić",
+              "przecinać",
+              "rozcinać"
             ],
-            correctAnswer: 1
+            correctAnswer: 0
           },
           {
             id: 9,
             question: "Jak powiesz 'to reach' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "dotrzeć",
+              "dojść",
               "osiągnąć",
-              "mówić"
+              "dobrnąć"
             ],
             correctAnswer: 2
           },
@@ -1040,10 +1040,10 @@ export const topics: Topic[] = [
             id: 10,
             question: "Jak powiesz 'to kill' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "uśmiercać",
+              "mordować",
               "zabić",
-              "mówić"
+              "likwidować"
             ],
             correctAnswer: 2
           }
@@ -1057,10 +1057,10 @@ export const topics: Topic[] = [
             id: 1,
             question: "Jak powiesz 'to remain' po polsku?",
             options: [
-              "być",
+              "trwać",
               "pozostać",
-              "robić",
-              "mówić"
+              "utrzymywać się",
+              "zachowywać się"
             ],
             correctAnswer: 1
           },
@@ -1068,10 +1068,10 @@ export const topics: Topic[] = [
             id: 2,
             question: "Jak powiesz 'to suggest' po polsku?",
             options: [
-              "być",
+              "proponować",
               "sugerować",
-              "robić",
-              "mówić"
+              "doradzać",
+              "rekomendować"
             ],
             correctAnswer: 1
           },
@@ -1079,10 +1079,10 @@ export const topics: Topic[] = [
             id: 3,
             question: "Jak powiesz 'to raise' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "wznosić",
+              "unosić",
               "podnieść",
-              "mówić"
+              "dźwigać"
             ],
             correctAnswer: 2
           },
@@ -1090,9 +1090,9 @@ export const topics: Topic[] = [
             id: 4,
             question: "Jak powiesz 'to pass' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "przechodzić",
+              "mijać",
+              "przekraczać",
               "zdać"
             ],
             correctAnswer: 3
@@ -1101,10 +1101,10 @@ export const topics: Topic[] = [
             id: 5,
             question: "Jak powiesz 'to sell' po polsku?",
             options: [
-              "być",
+              "handlować",
               "sprzedawać",
-              "robić",
-              "mówić"
+              "oferować",
+              "zbywać"
             ],
             correctAnswer: 1
           },
@@ -1112,10 +1112,10 @@ export const topics: Topic[] = [
             id: 6,
             question: "Jak powiesz 'to require' po polsku?",
             options: [
-              "być",
-              "mieć",
+              "potrzebować",
+              "żądać",
               "wymagać",
-              "mówić"
+              "domagać się"
             ],
             correctAnswer: 2
           },
@@ -1123,9 +1123,9 @@ export const topics: Topic[] = [
             id: 7,
             question: "Jak powiesz 'to report' po polsku?",
             options: [
-              "być",
-              "mieć",
-              "robić",
+              "informować",
+              "donosić",
+              "raportować",
               "zgłaszać"
             ],
             correctAnswer: 3
@@ -1134,121 +1134,10 @@ export const topics: Topic[] = [
             id: 8,
             question: "Jak powiesz 'to decide' po polsku?",
             options: [
-              "być",
               "decydować",
-              "robić",
-              "mówić"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 9,
-            question: "Jak powiesz 'to pull' po polsku?",
-            options: [
-              "być",
-              "mieć",
-              "ciągnąć",
-              "mówić"
-            ],
-            correctAnswer: 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: 2,
-    name: "Rzeczowniki",
-    quizSets: [
-      {
-        id: 1,
-        name: "Podstawowe rzeczowniki 1",
-        questions: [
-          {
-            id: 1,
-            question: "Jak powiesz 'house' po polsku?",
-            options: [
-              "budynek",
-              "dom",
-              "gmach",
-              "budowla"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 2,
-            question: "Jak powiesz 'dog' po polsku?",
-            options: [
-              "piesek",
-              "pies",
-              "kundel",
-              "czworonóg"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 3,
-            question: "Jak powiesz 'cat' po polsku?",
-            options: [
-              "kotek",
-              "kot",
-              "mruczek",
-              "dachowiec"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 4,
-            question: "Jak powiesz 'book' po polsku?",
-            options: [
-              "tom",
-              "książka",
-              "wolumen",
-              "publikacja"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 5,
-            question: "Jak powiesz 'car' po polsku?",
-            options: [
-              "pojazd",
-              "samochód",
-              "auto",
-              "wóz"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 6,
-            question: "Jak powiesz 'tree' po polsku?",
-            options: [
-              "roślina",
-              "drzewo",
-              "krzew",
-              "drzewostan"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 7,
-            question: "Jak powiesz 'table' po polsku?",
-            options: [
-              "blat",
-              "stół",
-              "mebel",
-              "podstawa"
-            ],
-            correctAnswer: 1
-          },
-          {
-            id: 8,
-            question: "Jak powiesz 'chair' po polsku?",
-            options: [
-              "krzesło",
-              "siedzisko",
-              "fotel",
-              "stołek"
+              "postanawiać",
+              "rozstrzygać",
+              "określać"
             ],
             correctAnswer: 0
           },

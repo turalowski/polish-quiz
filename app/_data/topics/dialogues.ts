@@ -12,56 +12,56 @@ export const dialoguesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'Can I have the menu, please?' po polsku?",
           options: [
-            "Czy mogę prosić o menu?",
-            "Czy mogę zobaczyć menu?",
-            "Czy mogę otrzymać menu?",
-            "Czy mogę dostać menu?"
+            "Czy mogę prosić o kartę?",
+            "Czy mogliby państwo podać menu?",
+            "Czy jest dostępna karta dań?",
+            "Czy mogę zobaczyć menu?"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 2,
           question: "Jak powiesz 'I would like to order' po polsku?",
           options: [
-            "Chciałbym zamówić",
-            "Pragnę zamówić",
-            "Życzyłbym sobie zamówić",
-            "Mam ochotę zamówić"
+            "Jestem gotowy do zamówienia",
+            "Chciałbym złożyć zamówienie",
+            "Mogę prosić o przyjęcie zamówienia",
+            "Proszę o możliwość zamówienia"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 3,
           question: "Jak powiesz 'The bill, please' po polsku?",
           options: [
-            "Poproszę rachunek",
+            "Czy mogę otrzymać rachunek",
             "Proszę o rachunek",
-            "Proszę o rozliczenie",
-            "Proszę o podsumowanie"
+            "Chciałbym zapłacić",
+            "Poproszę o rachunek"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 4,
           question: "Jak powiesz 'What do you recommend?' po polsku?",
           options: [
+            "Jakie są dzisiejsze specjały?",
+            "Co jest najpopularniejsze?",
             "Co pan/pani poleca?",
-            "Co pan/pani sugeruje?",
-            "Co pan/pani radzi?",
-            "Co pan/pani proponuje?"
+            "Co warto spróbować?"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 5,
           question: "Jak powiesz 'Enjoy your meal' po polsku?",
           options: [
+            "Życzę smacznego",
             "Smacznego",
             "Dobrego apetytu",
-            "Smacznego posiłku",
-            "Dobrego smaku"
+            "Proszę się delektować posiłkiem"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         }
       ]
     },
@@ -73,56 +73,56 @@ export const dialoguesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'I would like to apply for a residence permit' po polsku?",
           options: [
-            "Chciałbym/Chciałabym złożyć wniosek o kartę pobytu",
-            "Chciałbym/Chciałabym złożyć podanie o kartę pobytu",
             "Chciałbym/Chciałabym ubiegać się o kartę pobytu",
+            "Chciałbym/Chciałabym złożyć wniosek o kartę pobytu",
+            "Chciałbym/Chciałabym rozpocząć procedurę o kartę pobytu",
             "Chciałbym/Chciałabym starać się o kartę pobytu"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 2,
           question: "Jak powiesz 'Where can I find the form?' po polsku?",
           options: [
+            "Gdzie znajdę odpowiedni formularz?",
+            "Skąd mogę pobrać formularz?",
             "Gdzie mogę znaleźć formularz?",
-            "Gdzie mogę otrzymać formularz?",
-            "Gdzie mogę pobrać formularz?",
-            "Gdzie mogę wziąć formularz?"
+            "W którym miejscu są formularze?"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 3,
           question: "Jak powiesz 'What documents do I need?' po polsku?",
           options: [
-            "Jakie dokumenty są potrzebne?",
-            "Jakie dokumenty są wymagane?",
-            "Jakie dokumenty muszę przedstawić?",
-            "Jakie dokumenty muszę dostarczyć?"
+            "Które dokumenty są wymagane?",
+            "Jakie dokumenty muszę dostarczyć?",
+            "Co trzeba przygotować z dokumentów?",
+            "Jakie dokumenty są potrzebne?"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 4,
           question: "Jak powiesz 'I need to make an appointment' po polsku?",
           options: [
+            "Chciałbym umówić wizytę",
             "Muszę umówić się na wizytę",
-            "Muszę zarezerwować termin",
-            "Muszę ustalić spotkanie",
-            "Muszę zaplanować wizytę"
+            "Potrzebuję terminu wizyty",
+            "Proszę o wyznaczenie wizyty"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 5,
           question: "Jak powiesz 'Could you help me fill out this form?' po polsku?",
           options: [
+            "Czy mógłby pan/pani pomóc mi z formularzem?",
+            "Czy może mi pan/pani asystować przy formularzu?",
             "Czy może mi pan/pani pomóc wypełnić ten formularz?",
-            "Czy może mi pan/pani pomóc w uzupełnieniu tego formularza?",
-            "Czy może mi pan/pani pomóc w wypełnieniu tego dokumentu?",
-            "Czy może mi pan/pani pomóc w uzupełnieniu tego dokumentu?"
+            "Czy może pan/pani wytłumaczyć jak wypełnić formularz?"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         }
       ]
     },
@@ -134,58 +134,58 @@ export const dialoguesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'Your passport, please' po polsku?",
           options: [
-            "Poproszę paszport",
-            "Proszę o paszport",
             "Proszę pokazać paszport",
-            "Proszę przedstawić paszport"
+            "Poproszę paszport",
+            "Czy mogę zobaczyć paszport?",
+            "Dokumenty do kontroli poproszę"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 2,
           question: "Jak powiesz 'What is the purpose of your visit?' po polsku?",
           options: [
-            "Jaki jest cel twojej wizyty?",
-            "Jaki jest powód twojej wizyty?",
-            "W jakim celu przyjechałeś?",
-            "Po co przyjechałeś?"
+            "W jakim celu pan/pani przyjeżdża?",
+            "Co sprowadza pana/panią do Polski?",
+            "Jaki jest cel pana/pani wizyty?",
+            "Dlaczego pan/pani odwiedza Polskę?"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 3,
           question: "Jak powiesz 'How long are you planning to stay?' po polsku?",
           options: [
-            "Jak długo planujesz zostać?",
-            "Jak długo zamierzasz zostać?",
-            "Jak długo zamierzasz przebywać?",
-            "Jak długo planujesz przebywać?"
+            "Na jaki okres planuje pan/pani pobyt?",
+            "Do kiedy zamierza pan/pani zostać?",
+            "Jak długo będzie trwał pana/pani pobyt?",
+            "Jak długo planuje pan/pani zostać?"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 4,
           question: "Jak powiesz 'Where will you be staying?' po polsku?",
           options: [
-            "Gdzie się zatrzymasz?",
-            "Gdzie będziesz mieszkać?",
-            "Gdzie będziesz nocować?",
-            "Gdzie będziesz przebywać?"
+            "Gdzie będzie pan/pani mieszkać?",
+            "Gdzie się pan/pani zatrzyma?",
+            "Pod jakim adresem będzie pan/pani przebywać?",
+            "W jakiej lokalizacji pan/pani się zatrzymuje?"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 5,
           question: "Jak powiesz 'Do you have anything to declare?' po polsku?",
           options: [
-            "Czy masz coś do oclenia?",
-            "Czy masz coś do zadeklarowania?",
-            "Czy masz coś do zgłoszenia?",
-            "Czy masz coś do ujawnienia?"
+            "Czy przewozi pan/pani coś do oclenia?",
+            "Czy ma pan/pani coś do oclenia?",
+            "Czy deklaruje pan/pani jakieś towary?",
+            "Czy musi pan/pani coś zgłosić do odprawy?"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         }
       ]
     }
   ]
-}; 
+};

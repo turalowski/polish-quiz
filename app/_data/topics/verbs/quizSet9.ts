@@ -10,7 +10,7 @@ export const basicVerbs9: QuizSet = {
       options: [
         "obsługiwać",
         "służyć",
-        "usługiwać",
+        "podawać",
         "pomagać"
       ],
       correctAnswer: 1
@@ -19,10 +19,10 @@ export const basicVerbs9: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to die' po polsku?",
       options: [
-        "konać",
+        "odejść",
         "umrzeć",
-        "ginąć",
-        "odchodzić"
+        "zgasnąć", 
+        "dokonać żywota"
       ],
       correctAnswer: 1
     },
@@ -30,10 +30,10 @@ export const basicVerbs9: QuizSet = {
       id: 3,
       question: "Jak powiesz 'to send' po polsku?",
       options: [
-        "przekazywać",
-        "dostarczać",
+        "nadawać",
+        "przesyłać",
         "wysłać",
-        "ekspediować"
+        "przekazać"
       ],
       correctAnswer: 2
     },
@@ -42,8 +42,8 @@ export const basicVerbs9: QuizSet = {
       question: "Jak powiesz 'to expect' po polsku?",
       options: [
         "przewidywać",
-        "spodziewać się",
-        "zakładać",
+        "przypuszczać",
+        "wymagać",
         "oczekiwać"
       ],
       correctAnswer: 3
@@ -52,10 +52,10 @@ export const basicVerbs9: QuizSet = {
       id: 5,
       question: "Jak powiesz 'to build' po polsku?",
       options: [
-        "konstruować",
+        "tworzyć",
         "budować",
-        "wznosić",
-        "stawiać"
+        "konstruować",
+        "wznosić"
       ],
       correctAnswer: 1
     },
@@ -64,9 +64,9 @@ export const basicVerbs9: QuizSet = {
       question: "Jak powiesz 'to stay' po polsku?",
       options: [
         "przebywać",
-        "mieszkać",
+        "pozostać",
         "zostać",
-        "pozostawać"
+        "zatrzymać się"
       ],
       correctAnswer: 2
     },
@@ -74,9 +74,9 @@ export const basicVerbs9: QuizSet = {
       id: 7,
       question: "Jak powiesz 'to fall' po polsku?",
       options: [
-        "spadać",
-        "opadać",
-        "lecieć",
+        "spaść",
+        "opaść",
+        "runąć",
         "upaść"
       ],
       correctAnswer: 3
@@ -86,9 +86,9 @@ export const basicVerbs9: QuizSet = {
       question: "Jak powiesz 'to cut' po polsku?",
       options: [
         "ciąć",
-        "kroić",
-        "przecinać",
-        "rozcinać"
+        "przeciąć",
+        "rozciąć",
+        "naciąć"
       ],
       correctAnswer: 0
     },
@@ -97,9 +97,9 @@ export const basicVerbs9: QuizSet = {
       question: "Jak powiesz 'to reach' po polsku?",
       options: [
         "dotrzeć",
-        "dojść",
+        "dosięgnąć",
         "osiągnąć",
-        "dobrnąć"
+        "sięgnąć"
       ],
       correctAnswer: 2
     },
@@ -107,12 +107,12 @@ export const basicVerbs9: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to kill' po polsku?",
       options: [
-        "uśmiercać",
-        "mordować",
+        "zgładzić",
+        "uśmiercić",
         "zabić",
-        "likwidować"
+        "pozbawić życia"
       ],
       correctAnswer: 2
     }
   ]
-}; 
+};

@@ -101,7 +101,7 @@ export default function Quiz({ quizSet, onBack }: QuizProps) {
               const isCorrectAnswer = index === question.correctAnswer;
               
               let buttonVariant: "outline" | "default" | "destructive" = "outline";
-              let buttonClassName = "w-full min-h-[3.5rem] px-6 py-4 text-left transition-all duration-200 hover:shadow-md";
+              let buttonClassName = "w-full min-h-[3.5rem] px-6 py-4 text-left transition-all duration-200 hover:shadow-md whitespace-pre-wrap";
               
               if (showFeedback) {
                 if (isCorrectAnswer) {
@@ -121,8 +121,8 @@ export default function Quiz({ quizSet, onBack }: QuizProps) {
                   onClick={() => !showFeedback && handleAnswer(index)}
                   disabled={showFeedback}
                 >
-                  <div className="flex items-center w-full">
-                    <span className="flex-grow break-words">{option}</span>
+                  <div className="flex items-center w-full flex-wrap">
+                    <span className="flex-grow break-words whitespace-pre-wrap text-left">{option}</span>
                     {showFeedback && isSelected && (
                       isCorrect ? (
                         <Check className="h-5 w-5 ml-3 flex-shrink-0" />

@@ -8,10 +8,10 @@ export const basicVerbs5: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to like' po polsku?",
       options: [
-        "adorować",
-        "lubić",
-        "uwielbiać",
-        "sympatyzować"
+        "kochać",
+        "lubić", 
+        "podobać",
+        "cieszyć"
       ],
       correctAnswer: 1
     },
@@ -19,21 +19,21 @@ export const basicVerbs5: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to live' po polsku?",
       options: [
+        "przebywać",
+        "mieszkać",
         "egzystować",
-        "żyć",
-        "bytować",
-        "mieszkać"
+        "żyć"
       ],
-      correctAnswer: 1
+      correctAnswer: 3
     },
     {
       id: 3,
       question: "Jak powiesz 'to believe' po polsku?",
       options: [
+        "myśleć",
         "ufać",
-        "sądzić",
         "wierzyć",
-        "przypuszczać"
+        "sądzić"
       ],
       correctAnswer: 2
     },
@@ -41,12 +41,12 @@ export const basicVerbs5: QuizSet = {
       id: 4,
       question: "Jak powiesz 'to hold' po polsku?",
       options: [
+        "trzymać",
+        "łapać",
         "chwytać",
-        "dzierżyć",
-        "utrzymywać",
-        "trzymać"
+        "nosić"
       ],
-      correctAnswer: 3
+      correctAnswer: 0
     },
     {
       id: 5,
@@ -54,8 +54,8 @@ export const basicVerbs5: QuizSet = {
       options: [
         "dostarczać",
         "przynieść",
-        "transportować",
-        "doręczać"
+        "przewozić",
+        "podawać"
       ],
       correctAnswer: 1
     },
@@ -63,10 +63,10 @@ export const basicVerbs5: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to happen' po polsku?",
       options: [
-        "nastąpić",
-        "wydarzyć się",
+        "występować",
+        "dziać się",
         "zdarzyć się",
-        "zajść"
+        "pojawić się"
       ],
       correctAnswer: 2
     },
@@ -74,8 +74,8 @@ export const basicVerbs5: QuizSet = {
       id: 7,
       question: "Jak powiesz 'to write' po polsku?",
       options: [
-        "notować",
         "zapisywać",
+        "notować",
         "kreślić",
         "pisać"
       ],
@@ -85,34 +85,34 @@ export const basicVerbs5: QuizSet = {
       id: 8,
       question: "Jak powiesz 'to provide' po polsku?",
       options: [
-        "zaopatrywać",
-        "dostarczyć",
+        "dawać",
+        "dostarczać",
         "zapewniać",
         "oferować"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 9,
       question: "Jak powiesz 'to sit' po polsku?",
       options: [
-        "spoczywać",
-        "zasiadać",
         "siedzieć",
-        "przysiadać"
+        "spoczywać",
+        "przysiadać",
+        "zasiadać"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     },
     {
       id: 10,
       question: "Jak powiesz 'to stand' po polsku?",
       options: [
         "wznosić się",
-        "znajdować się",
         "stać",
-        "sterczeć"
+        "znajdować się",
+        "pozostawać"
       ],
-      correctAnswer: 2
+      correctAnswer: 1
     }
   ]
-}; 
+};

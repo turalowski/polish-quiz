@@ -8,10 +8,10 @@ export const basicVerbs7: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to watch' po polsku?",
       options: [
-        "obserwować",
+        "widzieć",
         "oglądać",
-        "patrzeć",
-        "przyglądać się"
+        "spoglądać",
+        "śledzić"
       ],
       correctAnswer: 1
     },
@@ -19,10 +19,10 @@ export const basicVerbs7: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to follow' po polsku?",
       options: [
-        "śledzić",
+        "naśladować",
         "podążać",
-        "gonić",
-        "tropić"
+        "towarzyszyć",
+        "kierować się"
       ],
       correctAnswer: 1
     },
@@ -30,10 +30,10 @@ export const basicVerbs7: QuizSet = {
       id: 3,
       question: "Jak powiesz 'to stop' po polsku?",
       options: [
-        "przestać",
-        "kończyć",
+        "wstrzymać",
+        "zakończyć",
         "zatrzymać",
-        "przerywać"
+        "przerwać"
       ],
       correctAnswer: 2
     },
@@ -41,9 +41,9 @@ export const basicVerbs7: QuizSet = {
       id: 4,
       question: "Jak powiesz 'to create' po polsku?",
       options: [
-        "kreować",
-        "formować",
-        "budować",
+        "produkować",
+        "konstruować",
+        "generować",
         "tworzyć"
       ],
       correctAnswer: 3
@@ -52,10 +52,10 @@ export const basicVerbs7: QuizSet = {
       id: 5,
       question: "Jak powiesz 'to speak' po polsku?",
       options: [
-        "rozmawiać",
+        "komunikować",
         "mówić",
-        "wypowiadać się",
-        "gadać"
+        "wyrażać się",
+        "opowiadać"
       ],
       correctAnswer: 1
     },
@@ -63,20 +63,20 @@ export const basicVerbs7: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to read' po polsku?",
       options: [
-        "studiować",
-        "przeglądać",
         "czytać",
-        "odczytywać"
+        "interpretować",
+        "analizować",
+        "poznawać"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     },
     {
       id: 7,
       question: "Jak powiesz 'to allow' po polsku?",
       options: [
-        "umożliwiać",
+        "akceptować",
+        "zgadzać się",
         "dopuszczać",
-        "zezwalać",
         "pozwalać"
       ],
       correctAnswer: 3
@@ -85,21 +85,21 @@ export const basicVerbs7: QuizSet = {
       id: 8,
       question: "Jak powiesz 'to add' po polsku?",
       options: [
+        "zwiększać",
         "dodawać",
-        "dołączać",
-        "sumować",
-        "dokładać"
+        "włączać",
+        "uzupełniać"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       id: 9,
       question: "Jak powiesz 'to spend' po polsku?",
       options: [
-        "wydawać",
-        "inwestować",
+        "wykorzystywać",
+        "zużywać",
         "spędzać",
-        "konsumować"
+        "poświęcać"
       ],
       correctAnswer: 2
     },
@@ -107,12 +107,12 @@ export const basicVerbs7: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to grow' po polsku?",
       options: [
-        "wzrastać",
         "powiększać się",
+        "dojrzewać",
         "rosnąć",
-        "rozwijać się"
+        "rozszerzać się"
       ],
       correctAnswer: 2
     }
   ]
-}; 
+};

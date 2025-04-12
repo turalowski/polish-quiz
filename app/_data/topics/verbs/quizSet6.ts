@@ -11,7 +11,7 @@ export const basicVerbs6: QuizSet = {
         "tracić",
         "przegrać",
         "gubić",
-        "utracić"
+        "zatracić"
       ],
       correctAnswer: 1
     },
@@ -21,8 +21,8 @@ export const basicVerbs6: QuizSet = {
       options: [
         "opłacać",
         "płacić",
-        "uiszczać",
-        "regulować"
+        "wypłacać",
+        "spłacać"
       ],
       correctAnswer: 1
     },
@@ -30,10 +30,10 @@ export const basicVerbs6: QuizSet = {
       id: 3,
       question: "Jak powiesz 'to meet' po polsku?",
       options: [
-        "napotkać",
+        "poznać",
         "widywać",
         "spotkać",
-        "spotykać"
+        "spotykać się"
       ],
       correctAnswer: 2
     },
@@ -44,7 +44,7 @@ export const basicVerbs6: QuizSet = {
         "obejmować",
         "zawierać",
         "włączać",
-        "dołączać"
+        "uwzględniać"
       ],
       correctAnswer: 1
     },
@@ -54,8 +54,8 @@ export const basicVerbs6: QuizSet = {
       options: [
         "trwać",
         "kontynuować",
-        "podtrzymywać",
-        "przedłużać"
+        "przedłużać",
+        "postępować"
       ],
       correctAnswer: 1
     },
@@ -63,10 +63,10 @@ export const basicVerbs6: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to set' po polsku?",
       options: [
-        "umieszczać",
         "kłaść",
+        "stawiać",
         "ustawiać",
-        "lokować"
+        "umieszczać"
       ],
       correctAnswer: 2
     },
@@ -86,8 +86,8 @@ export const basicVerbs6: QuizSet = {
       question: "Jak powiesz 'to change' po polsku?",
       options: [
         "zmieniać",
-        "modyfikować",
         "przekształcać",
+        "modyfikować",
         "transformować"
       ],
       correctAnswer: 0
@@ -96,10 +96,10 @@ export const basicVerbs6: QuizSet = {
       id: 9,
       question: "Jak powiesz 'to lead' po polsku?",
       options: [
-        "kierować",
         "przewodzić",
+        "kierować",
         "prowadzić",
-        "dowodzić"
+        "zarządzać"
       ],
       correctAnswer: 2
     },
@@ -115,4 +115,4 @@ export const basicVerbs6: QuizSet = {
       correctAnswer: 2
     }
   ]
-}; 
+};

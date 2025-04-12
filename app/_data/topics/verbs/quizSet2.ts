@@ -8,10 +8,10 @@ export const basicVerbs2: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to come' po polsku?",
       options: [
-        "zbliżać się",
-        "nadchodzić",
+        "przybywać",
+        "zbliżać się", 
         "przyjść",
-        "pojawiać się"
+        "docierać"
       ],
       correctAnswer: 2
     },
@@ -19,10 +19,10 @@ export const basicVerbs2: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to want' po polsku?",
       options: [
-        "pragnąć",
+        "życzyć sobie",
         "chcieć",
-        "pożądać",
-        "życzyć sobie"
+        "pragnąć",
+        "zamierzać"
       ],
       correctAnswer: 1
     },
@@ -30,10 +30,10 @@ export const basicVerbs2: QuizSet = {
       id: 3,
       question: "Jak powiesz 'to look' po polsku?",
       options: [
+        "spoglądać",
         "obserwować",
-        "oglądać",
         "patrzeć",
-        "przyglądać się"
+        "widzieć"
       ],
       correctAnswer: 2
     },
@@ -41,10 +41,10 @@ export const basicVerbs2: QuizSet = {
       id: 4,
       question: "Jak powiesz 'to use' po polsku?",
       options: [
-        "wykorzystywać",
-        "używać",
         "stosować",
-        "operować"
+        "używać",
+        "korzystać",
+        "posługiwać się"
       ],
       correctAnswer: 1
     },
@@ -52,10 +52,10 @@ export const basicVerbs2: QuizSet = {
       id: 5,
       question: "Jak powiesz 'to find' po polsku?",
       options: [
-        "odkrywać",
-        "poszukiwać",
+        "odkryć",
+        "odnaleźć",
         "znaleźć",
-        "natrafić"
+        "wyszukać"
       ],
       correctAnswer: 2
     },
@@ -63,10 +63,10 @@ export const basicVerbs2: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to give' po polsku?",
       options: [
-        "przekazywać",
-        "ofiarować",
+        "przekazać",
+        "podarować",
         "dać",
-        "wręczać"
+        "wręczyć"
       ],
       correctAnswer: 2
     },
@@ -74,9 +74,9 @@ export const basicVerbs2: QuizSet = {
       id: 7,
       question: "Jak powiesz 'to tell' po polsku?",
       options: [
-        "opowiadać",
-        "relacjonować",
-        "komunikować",
+        "mówić",
+        "przekazać",
+        "oznajmić",
         "powiedzieć"
       ],
       correctAnswer: 3
@@ -86,9 +86,9 @@ export const basicVerbs2: QuizSet = {
       question: "Jak powiesz 'to work' po polsku?",
       options: [
         "pracować",
-        "funkcjonować",
-        "działać",
-        "operować"
+        "wykonywać",
+        "robić",
+        "działać"
       ],
       correctAnswer: 0
     },
@@ -96,10 +96,10 @@ export const basicVerbs2: QuizSet = {
       id: 9,
       question: "Jak powiesz 'to call' po polsku?",
       options: [
-        "kontaktować się",
+        "wołać",
         "dzwonić",
-        "telefonować",
-        "łączyć się"
+        "zawołać",
+        "kontaktować"
       ],
       correctAnswer: 1
     },
@@ -107,12 +107,12 @@ export const basicVerbs2: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to try' po polsku?",
       options: [
+        "sprawdzać",
         "testować",
-        "usiłować",
         "próbować",
-        "starać się"
+        "podejmować"
       ],
       correctAnswer: 2
     }
   ]
-}; 
+};

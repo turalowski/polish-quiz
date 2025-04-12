@@ -8,10 +8,10 @@ export const basicVerbs4: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to seem' po polsku?",
       options: [
+        "wyglądać na",
         "sprawiać wrażenie",
-        "wyglądać",
         "wydawać się",
-        "jawić się"
+        "przypominać"
       ],
       correctAnswer: 2
     },
@@ -20,99 +20,99 @@ export const basicVerbs4: QuizSet = {
       question: "Jak powiesz 'to help' po polsku?",
       options: [
         "wspierać",
-        "pomagać",
         "asystować",
-        "służyć pomocą"
+        "służyć pomocą",
+        "pomagać"
       ],
-      correctAnswer: 1
+      correctAnswer: 3
     },
     {
       id: 3,
       question: "Jak powiesz 'to talk' po polsku?",
       options: [
-        "konwersować",
-        "dyskutować",
         "rozmawiać",
-        "gadać"
+        "dyskutować",
+        "mówić",
+        "konwersować"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     },
     {
       id: 4,
       question: "Jak powiesz 'to turn' po polsku?",
       options: [
-        "kręcić",
-        "rotować",
-        "wirować",
-        "obracać"
+        "kręcić się",
+        "obracać",
+        "skręcać",
+        "zawracać"
       ],
-      correctAnswer: 3
+      correctAnswer: 1
     },
     {
       id: 5,
       question: "Jak powiesz 'to start' po polsku?",
       options: [
-        "inicjować",
-        "zacząć",
         "rozpoczynać",
-        "inaugurować"
+        "zaczynać",
+        "zacząć",
+        "startować"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 6,
       question: "Jak powiesz 'to show' po polsku?",
       options: [
+        "pokazywać",
         "demonstrować",
-        "prezentować",
-        "pokazać",
-        "ukazywać"
+        "wyświetlać",
+        "pokazać"
       ],
-      correctAnswer: 2
+      correctAnswer: 3
     },
     {
       id: 7,
       question: "Jak powiesz 'to hear' po polsku?",
       options: [
+        "słuchać",
+        "słyszeć",
         "usłyszeć",
-        "wysłuchać",
-        "odbierać",
-        "słyszeć"
+        "wysłuchać"
       ],
-      correctAnswer: 3
+      correctAnswer: 1
     },
     {
       id: 8,
       question: "Jak powiesz 'to play' po polsku?",
       options: [
-        "grać",
         "bawić się",
-        "zabawiać się",
+        "grać",
+        "zagrać",
         "rozgrywać"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       id: 9,
       question: "Jak powiesz 'to run' po polsku?",
       options: [
+        "biegać",
         "pędzić",
         "gnać",
-        "biegać",
-        "galopować"
+        "sprintować"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     },
     {
       id: 10,
       question: "Jak powiesz 'to move' po polsku?",
       options: [
+        "przemieszczać",
+        "ruszać się",
         "poruszać się",
-        "przemieszczać się",
-        "przesuwać",
-        "transportować"
+        "przesuwać się"
       ],
       correctAnswer: 2
     }
   ]
-}; 
+};

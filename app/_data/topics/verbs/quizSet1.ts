@@ -8,10 +8,10 @@ export const basicVerbs1: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to be' po polsku?",
       options: [
-        "istnieć",
+        "egzystować",
         "być",
-        "znajdować się",
-        "przebywać"
+        "przebywać",
+        "istnieć"
       ],
       correctAnswer: 1
     },
@@ -21,8 +21,8 @@ export const basicVerbs1: QuizSet = {
       options: [
         "posiadać",
         "mieć",
-        "dysponować",
-        "władać"
+        "władać",
+        "dysponować"
       ],
       correctAnswer: 1
     },
@@ -33,7 +33,7 @@ export const basicVerbs1: QuizSet = {
         "wykonywać",
         "działać",
         "robić",
-        "pracować"
+        "tworzyć"
       ],
       correctAnswer: 2
     },
@@ -41,8 +41,8 @@ export const basicVerbs1: QuizSet = {
       id: 4,
       question: "Jak powiesz 'to say' po polsku?",
       options: [
+        "opowiadać",
         "wypowiadać",
-        "wyrażać",
         "komunikować",
         "mówić"
       ],
@@ -52,9 +52,9 @@ export const basicVerbs1: QuizSet = {
       id: 5,
       question: "Jak powiesz 'to go' po polsku?",
       options: [
-        "spacerować",
+        "wędrować",
         "iść",
-        "podróżować",
+        "podążać",
         "przemieszczać się"
       ],
       correctAnswer: 1
@@ -64,7 +64,7 @@ export const basicVerbs1: QuizSet = {
       question: "Jak powiesz 'to get' po polsku?",
       options: [
         "otrzymywać",
-        "nabywać",
+        "uzyskiwać",
         "dostać",
         "zdobywać"
       ],
@@ -74,9 +74,9 @@ export const basicVerbs1: QuizSet = {
       id: 7,
       question: "Jak powiesz 'to make' po polsku?",
       options: [
-        "wytwarzać",
+        "tworzyć",
         "kreować",
-        "produkować",
+        "wytwarzać",
         "robić"
       ],
       correctAnswer: 3
@@ -86,9 +86,9 @@ export const basicVerbs1: QuizSet = {
       question: "Jak powiesz 'to know' po polsku?",
       options: [
         "znać",
+        "wiedzieć",
         "rozumieć",
-        "pojmować",
-        "orientować się"
+        "pojmować"
       ],
       correctAnswer: 0
     },
@@ -97,7 +97,7 @@ export const basicVerbs1: QuizSet = {
       question: "Jak powiesz 'to think' po polsku?",
       options: [
         "rozważać",
-        "kontemplować",
+        "zastanawiać się",
         "myśleć",
         "analizować"
       ],
@@ -107,9 +107,9 @@ export const basicVerbs1: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to see' po polsku?",
       options: [
-        "obserwować",
+        "patrzeć",
         "dostrzegać",
-        "spoglądać",
+        "oglądać",
         "widzieć"
       ],
       correctAnswer: 3

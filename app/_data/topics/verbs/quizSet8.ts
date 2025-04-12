@@ -8,10 +8,10 @@ export const basicVerbs8: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to open' po polsku?",
       options: [
-        "rozchylać",
-        "otwierać",
         "uchylać",
-        "rozwierać"
+        "otwierać",
+        "rozwijać",
+        "odkrywać"
       ],
       correctAnswer: 1
     },
@@ -19,31 +19,31 @@ export const basicVerbs8: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to walk' po polsku?",
       options: [
-        "spacerować",
-        "chodzić",
+        "wędrować",
         "kroczyć",
-        "maszerować"
+        "chodzić",
+        "spacerować"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 3,
       question: "Jak powiesz 'to win' po polsku?",
       options: [
-        "triumfować",
-        "zwyciężać",
         "wygrać",
-        "pokonywać"
+        "zdobyć",
+        "pokonać",
+        "triumfować"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     },
     {
       id: 4,
       question: "Jak powiesz 'to offer' po polsku?",
       options: [
+        "dawać",
         "proponować",
-        "sugerować",
-        "przedstawiać",
+        "prezentować",
         "oferować"
       ],
       correctAnswer: 3
@@ -52,10 +52,10 @@ export const basicVerbs8: QuizSet = {
       id: 5,
       question: "Jak powiesz 'to remember' po polsku?",
       options: [
-        "przypominać sobie",
-        "pamiętać",
         "wspominać",
-        "zachowywać w pamięci"
+        "pamiętać",
+        "przypominać",
+        "zapamiętywać"
       ],
       correctAnswer: 1
     },
@@ -63,10 +63,10 @@ export const basicVerbs8: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to love' po polsku?",
       options: [
+        "wielbić",
         "uwielbiać",
-        "adorować",
         "kochać",
-        "miłować"
+        "adorować"
       ],
       correctAnswer: 2
     },
@@ -74,12 +74,12 @@ export const basicVerbs8: QuizSet = {
       id: 7,
       question: "Jak powiesz 'to consider' po polsku?",
       options: [
-        "przemyśleć",
+        "myśleć",
+        "rozważać",
         "zastanawiać się",
-        "analizować",
-        "rozważać"
+        "analizować"
       ],
-      correctAnswer: 3
+      correctAnswer: 1
     },
     {
       id: 8,
@@ -87,8 +87,8 @@ export const basicVerbs8: QuizSet = {
       options: [
         "wyłaniać się",
         "pojawić się",
-        "ukazywać się",
-        "pokazywać się"
+        "ukazać się",
+        "wychodzić"
       ],
       correctAnswer: 1
     },
@@ -96,10 +96,10 @@ export const basicVerbs8: QuizSet = {
       id: 9,
       question: "Jak powiesz 'to buy' po polsku?",
       options: [
-        "nabywać",
+        "nabyć",
         "zakupić",
         "kupić",
-        "nabyć"
+        "zdobyć"
       ],
       correctAnswer: 2
     },
@@ -107,12 +107,12 @@ export const basicVerbs8: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to wait' po polsku?",
       options: [
+        "czekać",
         "oczekiwać",
         "wyczekiwać",
-        "czekać",
-        "wypatrywać"
+        "pozostawać"
       ],
-      correctAnswer: 2
+      correctAnswer: 0
     }
   ]
-}; 
+};

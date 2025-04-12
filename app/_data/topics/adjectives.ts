@@ -12,10 +12,10 @@ export const adjectivesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'big' po polsku?",
           options: [
-            "szeroki",
-            "duży", 
-            "ciężki",
-            "gruby"
+            "wysoki",
+            "duży",
+            "wielki",
+            "szeroki"
           ],
           correctAnswer: 1
         },
@@ -24,9 +24,9 @@ export const adjectivesTopic: Topic = {
           question: "Jak powiesz 'small' po polsku?",
           options: [
             "mały",
-            "wąski",
-            "lekki", 
-            "cienki"
+            "krótki",
+            "drobny",
+            "niski"
           ],
           correctAnswer: 0
         },
@@ -34,21 +34,21 @@ export const adjectivesTopic: Topic = {
           id: 3,
           question: "Jak powiesz 'tall' po polsku?",
           options: [
+            "długi",
+            "duży",
             "wysoki",
-            "głęboki",
-            "daleki",
-            "stromy"
+            "wielki"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 4,
           question: "Jak powiesz 'short' po polsku?",
           options: [
-            "płytki",
+            "krótki",
             "niski",
-            "bliski",
-            "łagodny"
+            "mały",
+            "wąski"
           ],
           correctAnswer: 1
         },
@@ -56,45 +56,45 @@ export const adjectivesTopic: Topic = {
           id: 5,
           question: "Jak powiesz 'new' po polsku?",
           options: [
-            "nowy",
-            "modny",
-            "drogi",
-            "świeży"
+            "świeży",
+            "młody",
+            "nowoczesny",
+            "nowy"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 6,
           question: "Jak powiesz 'old' po polsku?",
           options: [
+            "dawny",
             "stary",
-            "używany",
-            "zniszczony",
-            "tani"
+            "wiekowy",
+            "dojrzały"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 7,
           question: "Jak powiesz 'young' po polsku?",
           options: [
+            "świeży",
+            "nowy",
             "młody",
-            "zdrowy",
-            "silny",
-            "żywy"
+            "niedojrzały"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 8,
           question: "Jak powiesz 'wide' po polsku?",
           options: [
-            "szeroki",
-            "długi",
-            "głęboki",
-            "duży"
+            "obszerny",
+            "duży",
+            "przestronny",
+            "szeroki"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         }
       ]
     },
@@ -106,32 +106,32 @@ export const adjectivesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'good' po polsku?",
           options: [
+            "właściwy",
             "dobry",
-            "miły",
-            "przyjemny",
-            "wesoły"
+            "pozytywny",
+            "odpowiedni"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 2,
           question: "Jak powiesz 'bad' po polsku?",
           options: [
+            "nieprzyjemny",
+            "negatywny",
             "zły",
-            "smutny",
-            "trudny",
-            "ciężki"
+            "niewłaściwy"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 3,
           question: "Jak powiesz 'beautiful' po polsku?",
           options: [
-            "kolorowy",
+            "ładny",
             "piękny",
-            "jasny",
-            "czysty"
+            "urodziwy",
+            "atrakcyjny"
           ],
           correctAnswer: 1
         },
@@ -139,32 +139,32 @@ export const adjectivesTopic: Topic = {
           id: 4,
           question: "Jak powiesz 'ugly' po polsku?",
           options: [
+            "nieprzyjemny",
+            "nieładny",
             "brzydki",
-            "ciemny",
-            "brudny",
-            "stary"
+            "odpychający"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 5,
           question: "Jak powiesz 'clean' po polsku?",
           options: [
-            "czysty",
-            "jasny",
+            "schludny",
             "świeży",
-            "nowy"
+            "porządny",
+            "czysty"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 6,
           question: "Jak powiesz 'dirty' po polsku?",
           options: [
             "brudny",
-            "ciemny",
-            "stary",
-            "mokry"
+            "nieczysty",
+            "zabrudzony",
+            "zanieczyszczony"
           ],
           correctAnswer: 0
         }
@@ -178,43 +178,43 @@ export const adjectivesTopic: Topic = {
           id: 1,
           question: "Jak powiesz 'red' po polsku?",
           options: [
+            "krwisty",
             "czerwony",
-            "różowy",
-            "pomarańczowy",
-            "brązowy"
+            "rumiany",
+            "bordowy"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 2,
           question: "Jak powiesz 'blue' po polsku?",
           options: [
+            "błękitny",
+            "granatowy",
             "niebieski",
-            "zielony",
-            "fioletowy",
-            "szary"
+            "lazurowy"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         },
         {
           id: 3,
           question: "Jak powiesz 'yellow' po polsku?",
           options: [
-            "żółty",
-            "pomarańczowy",
-            "zielony",
-            "brązowy"
+            "złocisty",
+            "słoneczny",
+            "cytrynowy",
+            "żółty"
           ],
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 4,
           question: "Jak powiesz 'green' po polsku?",
           options: [
             "zielony",
-            "niebieski",
-            "brązowy",
-            "szary"
+            "trawiasty",
+            "szmaragdowy",
+            "oliwkowy"
           ],
           correctAnswer: 0
         },
@@ -222,23 +222,23 @@ export const adjectivesTopic: Topic = {
           id: 5,
           question: "Jak powiesz 'black' po polsku?",
           options: [
+            "kruczy",
             "czarny",
-            "szary",
-            "brązowy",
-            "fioletowy"
+            "hebanowy",
+            "węglowy"
           ],
-          correctAnswer: 0
+          correctAnswer: 1
         },
         {
           id: 6,
           question: "Jak powiesz 'white' po polsku?",
           options: [
+            "śnieżny",
+            "mleczny",
             "biały",
-            "szary",
-            "żółty",
-            "różowy"
+            "kremowy"
           ],
-          correctAnswer: 0
+          correctAnswer: 2
         }
       ]
     }

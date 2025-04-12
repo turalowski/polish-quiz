@@ -8,10 +8,10 @@ export const basicVerbs10: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to remain' po polsku?",
       options: [
-        "trwać",
+        "zostać",
         "pozostać",
-        "utrzymywać się",
-        "zachowywać się"
+        "trwać",
+        "utrzymywać się"
       ],
       correctAnswer: 1
     },
@@ -19,12 +19,12 @@ export const basicVerbs10: QuizSet = {
       id: 2,
       question: "Jak powiesz 'to suggest' po polsku?",
       options: [
-        "proponować",
+        "zalecać",
+        "rekomendować",
         "sugerować",
-        "doradzać",
-        "rekomendować"
+        "doradzać"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 3,
@@ -32,21 +32,21 @@ export const basicVerbs10: QuizSet = {
       options: [
         "wznosić",
         "unosić",
-        "podnieść",
-        "dźwigać"
+        "podwyższać",
+        "podnieść"
       ],
-      correctAnswer: 2
+      correctAnswer: 3
     },
     {
       id: 4,
       question: "Jak powiesz 'to pass' po polsku?",
       options: [
-        "przechodzić",
-        "mijać",
         "przekraczać",
-        "zdać"
+        "przechodzić",
+        "zdać",
+        "przepuszczać"
       ],
-      correctAnswer: 3
+      correctAnswer: 2
     },
     {
       id: 5,
@@ -63,10 +63,10 @@ export const basicVerbs10: QuizSet = {
       id: 6,
       question: "Jak powiesz 'to require' po polsku?",
       options: [
-        "potrzebować",
         "żądać",
+        "domagać się",
         "wymagać",
-        "domagać się"
+        "oczekiwać"
       ],
       correctAnswer: 2
     },
@@ -75,8 +75,8 @@ export const basicVerbs10: QuizSet = {
       question: "Jak powiesz 'to report' po polsku?",
       options: [
         "informować",
-        "donosić",
-        "raportować",
+        "powiadamiać",
+        "komunikować",
         "zgłaszać"
       ],
       correctAnswer: 3
@@ -85,21 +85,21 @@ export const basicVerbs10: QuizSet = {
       id: 8,
       question: "Jak powiesz 'to decide' po polsku?",
       options: [
-        "decydować",
-        "postanawiać",
         "rozstrzygać",
-        "określać"
+        "decydować",
+        "ustalać",
+        "postanawiać"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       id: 9,
       question: "Jak powiesz 'to explain' po polsku?",
       options: [
-        "wyjaśniać",
         "objaśniać",
-        "tłumaczyć",
-        "klarować"
+        "interpretować",
+        "wyjaśniać",
+        "tłumaczyć"
       ],
       correctAnswer: 2
     },
@@ -107,12 +107,12 @@ export const basicVerbs10: QuizSet = {
       id: 10,
       question: "Jak powiesz 'to finish' po polsku?",
       options: [
-        "zakończyć",
-        "dokończyć",
-        "finalizować",
-        "zamknąć"
+        "kończyć",
+        "doprowadzać do końca",
+        "zamykać",
+        "zakończyć"
       ],
-      correctAnswer: 0
+      correctAnswer: 3
     }
   ]
-}; 
+};

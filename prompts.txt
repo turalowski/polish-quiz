@@ -13,3 +13,5 @@ Avoid making the wrong answers obviously incorrect (e.g., don’t just throw in 
 Keep the structure and length of each variant similar.
 
 Make the wrong answers subtly misleading, e.g., by including a partially correct concept, close synonym, or common misconception.
+
+The correct answer (correctAnswer) should vary between the options (0-3) across different questions. Avoid always using the first or second option as the correct one. Instead, distribute the correct answers across all positions to maintain unpredictability.

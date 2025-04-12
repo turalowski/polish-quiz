@@ -8,111 +8,111 @@ export const basicVerbs3: QuizSet = {
       id: 1,
       question: "Jak powiesz 'to ask' po polsku?",
       options: [
-        "zapytywać",
-        "pytać",
+        "zapytać",
         "dociekać",
-        "dowiadywać się"
+        "pytać",
+        "wypytywać"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 2,
       question: "Jak powiesz 'to need' po polsku?",
       options: [
-        "potrzebować",
         "wymagać",
-        "musieć",
-        "pragnąć"
+        "potrzebować",
+        "pragnąć",
+        "musieć"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       id: 3,
       question: "Jak powiesz 'to feel' po polsku?",
       options: [
-        "odczuwać",
-        "czuć",
         "doznawać",
-        "doświadczać"
+        "doświadczać",
+        "odczuwać",
+        "czuć"
       ],
-      correctAnswer: 1
+      correctAnswer: 3
     },
     {
       id: 4,
       question: "Jak powiesz 'to become' po polsku?",
       options: [
+        "stawać się",
         "przemieniać się",
-        "zostać",
         "przekształcać się",
-        "ewoluować"
+        "zostać"
       ],
-      correctAnswer: 1
+      correctAnswer: 3
     },
     {
       id: 5,
       question: "Jak powiesz 'to leave' po polsku?",
       options: [
+        "wychodzić",
         "oddalać się",
-        "wyjechać",
         "opuszczać",
-        "odchodzić"
+        "wyjść"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 6,
       question: "Jak powiesz 'to put' po polsku?",
       options: [
-        "umieszczać",
+        "kłaść",
         "stawiać",
-        "położyć",
-        "lokować"
+        "umieszczać",
+        "położyć"
       ],
-      correctAnswer: 2
+      correctAnswer: 3
     },
     {
       id: 7,
       question: "Jak powiesz 'to mean' po polsku?",
       options: [
-        "oznaczać",
         "znaczyć",
         "wskazywać",
-        "sugerować"
+        "sugerować",
+        "oznaczać"
       ],
-      correctAnswer: 1
+      correctAnswer: 0
     },
     {
       id: 8,
       question: "Jak powiesz 'to keep' po polsku?",
       options: [
-        "trzymać",
         "zachowywać",
+        "trzymać",
         "przechowywać",
         "utrzymywać"
       ],
-      correctAnswer: 0
+      correctAnswer: 1
     },
     {
       id: 9,
       question: "Jak powiesz 'to let' po polsku?",
       options: [
-        "umożliwiać",
-        "pozwolić",
         "dopuszczać",
-        "zezwalać"
+        "zezwalać",
+        "pozwalać",
+        "umożliwiać"
       ],
-      correctAnswer: 1
+      correctAnswer: 2
     },
     {
       id: 10,
       question: "Jak powiesz 'to begin' po polsku?",
       options: [
         "rozpoczynać",
-        "inicjować",
-        "zacząć",
-        "startować"
+        "zaczynać",
+        "startować",
+        "zacząć"
       ],
-      correctAnswer: 2
+      correctAnswer: 3
     }
   ]
-}; 
+};

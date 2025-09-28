@@ -1,0 +1,158 @@
+import { QuizSet } from "../_types";
+
+export const commonVerbs2: QuizSet = {
+  id: 2,
+  name: "Common Verbs - 2",
+  questions: [
+    {
+      id: 26,
+      question: "How do you say 'call' in Polish?",
+      options: ["telefonować", "wołać", "dzwonić", "nazywać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 27,
+      question: "How do you say 'try' in Polish?",
+      options: ["usiłować", "testować", "próbować", "starać się"],
+      correctAnswer: 2,
+    },
+    {
+      id: 28,
+      question: "How do you say 'ask' in Polish?",
+      options: ["pytać", "żądać", "prosić", "zapraszać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 29,
+      question: "How do you say 'need' in Polish?",
+      options: ["musieć", "potrzebować", "wymagać", "żądać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 30,
+      question: "How do you say 'feel' in Polish?",
+      options: ["dotykać", "odczuwać", "czuć", "przeżywać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 31,
+      question: "How do you say 'become' in Polish?",
+      options: ["stać się", "zostawać", "przemieniać się", "przeobrażać się"],
+      correctAnswer: 0,
+    },
+    {
+      id: 32,
+      question: "How do you say 'leave' in Polish?",
+      options: ["porzucać", "odchodzić", "zostawić", "wychodzić"],
+      correctAnswer: 2,
+    },
+    {
+      id: 33,
+      question: "How do you say 'put' in Polish?",
+      options: ["położyć", "kłaść", "umieszczać", "wstawiać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 34,
+      question: "How do you say 'mean' in Polish?",
+      options: ["zamierzać", "mieć na myśli", "oznaczać", "chcieć"],
+      correctAnswer: 1,
+    },
+    {
+      id: 35,
+      question: "How do you say 'keep' in Polish?",
+      options: ["trzymać", "utrzymywać", "zachowywać", "przechowywać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 36,
+      question: "How do you say 'let' in Polish?",
+      options: ["zezwalać", "pozwalać", "wpuszczać", "dopuszczać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 37,
+      question: "How do you say 'begin' in Polish?",
+      options: ["począć", "rozpoczynać", "zacząć", "startować"],
+      correctAnswer: 2,
+    },
+    {
+      id: 38,
+      question: "How do you say 'seem' in Polish?",
+      options: ["wydawać się", "zdawać się", "sprawiać wrażenie", "wyglądać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 39,
+      question: "How do you say 'help' in Polish?",
+      options: ["ratować", "asystować", "pomagać", "wspierać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 40,
+      question: "How do you say 'talk' in Polish?",
+      options: ["rozmawiać", "gadać", "mówić", "dyskutować"],
+      correctAnswer: 0,
+    },
+    {
+      id: 41,
+      question: "How do you say 'turn' in Polish?",
+      options: ["skręcać", "obracać", "przekręcać", "odwracać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 42,
+      question: "How do you say 'start' in Polish?",
+      options: ["wystartować", "rozpocząć", "począć", "zaczynać"],
+      correctAnswer: 3,
+    },
+    {
+      id: 43,
+      question: "How do you say 'might' in Polish?",
+      options: ["być może", "móc", "chyba", "może"],
+      correctAnswer: 1,
+    },
+    {
+      id: 44,
+      question: "How do you say 'show' in Polish?",
+      options: ["pokazać", "okazywać", "przedstawiać", "ukazywać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 45,
+      question: "How do you say 'hear' in Polish?",
+      options: ["słyszeć", "podsłuchiwać", "usłyszeć", "nasłuchiwać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 46,
+      question: "How do you say 'play' in Polish?",
+      options: ["grać", "odgrywać", "zabawić się", "bawić się"],
+      correctAnswer: 0,
+    },
+    {
+      id: 47,
+      question: "How do you say 'run' in Polish?",
+      options: ["biec", "biegać", "pędzić", "uciekać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 48,
+      question: "How do you say 'move' in Polish?",
+      options: ["poruszać się", "przesuwać", "ruszać się", "przemieszczać się"],
+      correctAnswer: 2,
+    },
+    {
+      id: 49,
+      question: "How do you say 'like' in Polish?",
+      options: ["lubić", "podobać się", "upodobać", "przepadać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 50,
+      question: "How do you say 'live' in Polish?",
+      options: ["mieszkać", "żyć", "egzystować", "zamieszkiwać"],
+      correctAnswer: 1,
+    },
+  ],
+};

@@ -1,34 +1,23 @@
 'use client';
 
-import { Topic, QuizSet } from '../_types';
+import { QuizSet } from '../_types';
 import { Card, CardHeader, CardTitle, CardContent } from "@/app/_components/ui/card";
 import { Button } from "@/app/_components/ui/button";
-import { ChevronLeft } from "lucide-react";
 
 interface QuizSetSelectorProps {
-  topic: Topic;
+  quizSets: QuizSet[];
   onSelectQuizSet: (quizSet: QuizSet) => void;
-  onBack: () => void;
 }
 
-export default function QuizSetSelector({ topic, onSelectQuizSet, onBack }: QuizSetSelectorProps) {
+export default function QuizSetSelector({ quizSets, onSelectQuizSet }: QuizSetSelectorProps) {
   return (
     <div className="max-w-2xl mx-auto space-y-4">
-      <Button 
-        variant="ghost" 
-        onClick={onBack}
-        className="mb-4"
-      >
-        <ChevronLeft className="mr-2 h-4 w-4" />
-        Powrót do tematów
-      </Button>
-
       <Card>
         <CardHeader>
-          <CardTitle>Wybierz zestaw pytań z tematu: {topic.name}</CardTitle>
+          <CardTitle>Wybierz zestaw pytań</CardTitle>
         </CardHeader>
         <CardContent className="grid gap-4">
-          {topic.quizSets.map((quizSet) => (
+          {quizSets.map((quizSet) => (
             <Button
               key={quizSet.id}
               variant="outline"

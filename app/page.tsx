@@ -1,14 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { topics } from './_data';
-import TopicSelector from './_components/TopicSelector';
+import { quizSets } from './_data';
 import QuizSetSelector from './_components/QuizSetSelector';
 import Quiz from './_components/Quiz';
-import { Topic, QuizSet } from './_types';
+import { QuizSet } from './_types';
 
 export default function Home() {
-  const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
   const [selectedQuizSet, setSelectedQuizSet] = useState<QuizSet | null>(null);
   const [isScreenTooSmall, setIsScreenTooSmall] = useState(false);
 
@@ -42,20 +40,14 @@ export default function Home() {
       <div className="mb-8">
         <h1 className="text-4xl font-bold text-center">Quiz Polski</h1>
         <p className="text-muted-foreground text-center mt-2">
-          Wybierz temat i sprawdź swoją wiedzę!
+          Wybierz zestaw pytań i sprawdź swoją wiedzę!
         </p>
       </div>
       
-      {!selectedTopic ? (
-        <TopicSelector 
-          topics={topics} 
-          onSelectTopic={setSelectedTopic} 
-        />
-      ) : !selectedQuizSet ? (
+      {!selectedQuizSet ? (
         <QuizSetSelector 
-          topic={selectedTopic} 
+          quizSets={quizSets} 
           onSelectQuizSet={setSelectedQuizSet}
-          onBack={() => setSelectedTopic(null)}
         />
       ) : (
         <Quiz 

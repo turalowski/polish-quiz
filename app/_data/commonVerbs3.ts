@@ -1,0 +1,158 @@
+import { QuizSet } from "../_types";
+
+export const commonVerbs3: QuizSet = {
+  id: 3,
+  name: "Common Verbs - 3",
+  questions: [
+    {
+      id: 51,
+      question: "How do you say 'believe' in Polish?",
+      options: ["ufać", "wierzyć", "sądzić", "przypuszczać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 52,
+      question: "How do you say 'hold' in Polish?",
+      options: ["przytrzymywać", "trzymać", "zatrzymywać", "utrzymywać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 53,
+      question: "How do you say 'bring' in Polish?",
+      options: ["przynosić", "dostarczać", "przyprowadzać", "zawierać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 54,
+      question: "How do you say 'happen' in Polish?",
+      options: ["wydarzyć się", "dziać się", "przytrafiać się", "nastąpić"],
+      correctAnswer: 0,
+    },
+    {
+      id: 55,
+      question: "How do you say 'must' in Polish?",
+      options: ["musieć", "trzeba", "powinien", "należy"],
+      correctAnswer: 0,
+    },
+    {
+      id: 56,
+      question: "How do you say 'write' in Polish?",
+      options: ["spisywać", "notować", "pisać", "zapisywać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 57,
+      question: "How do you say 'provide' in Polish?",
+      options: ["zapewniać", "dostarczać", "ofiarować", "udzielać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 58,
+      question: "How do you say 'sit' in Polish?",
+      options: ["siedzieć", "przysiadać", "usiąść", "zasiadać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 59,
+      question: "How do you say 'stand' in Polish?",
+      options: ["stać", "wstawać", "stawać", "pozostawać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 60,
+      question: "How do you say 'lose' in Polish?",
+      options: ["gubić", "tracić", "przegrywać", "stracić"],
+      correctAnswer: 1,
+    },
+    {
+      id: 61,
+      question: "How do you say 'pay' in Polish?",
+      options: ["opłacać", "zapłacić", "płacić", "uregulować"],
+      correctAnswer: 2,
+    },
+    {
+      id: 62,
+      question: "How do you say 'meet' in Polish?",
+      options: ["spotkać", "poznać", "spotykać się", "napotkać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 63,
+      question: "How do you say 'include' in Polish?",
+      options: ["zawierać", "obejmować", "uwzględniać", "dołączać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 64,
+      question: "How do you say 'continue' in Polish?",
+      options: ["kontynuować", "trwać", "dalej robić", "przedłużać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 65,
+      question: "How do you say 'set' in Polish?",
+      options: ["ustawiać", "ustalić", "ustawić", "nakładać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 66,
+      question: "How do you say 'learn' in Polish?",
+      options: ["poznawać", "uczyć się", "dowiedzieć się", "przyswajać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 67,
+      question: "How do you say 'change' in Polish?",
+      options: ["przemieniać", "zmieniać", "modyfikować", "przekształcać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 68,
+      question: "How do you say 'lead' in Polish?",
+      options: ["prowadzić", "kierować", "dowodzić", "przewodzić"],
+      correctAnswer: 0,
+    },
+    {
+      id: 69,
+      question: "How do you say 'understand' in Polish?",
+      options: ["zrozumieć", "pojmować", "rozumieć", "pojąć"],
+      correctAnswer: 2,
+    },
+    {
+      id: 70,
+      question: "How do you say 'watch' in Polish?",
+      options: ["oglądać", "obserwować", "pilnować", "patrzeć"],
+      correctAnswer: 0,
+    },
+    {
+      id: 71,
+      question: "How do you say 'follow' in Polish?",
+      options: ["naśladować", "podążać", "śledzić", "iść za"],
+      correctAnswer: 1,
+    },
+    {
+      id: 72,
+      question: "How do you say 'stop' in Polish?",
+      options: ["zatrzymać", "przestać", "powstrzymać", "stanąć"],
+      correctAnswer: 0,
+    },
+    {
+      id: 73,
+      question: "How do you say 'create' in Polish?",
+      options: ["kreować", "tworzyć", "wytwarzać", "generować"],
+      correctAnswer: 1,
+    },
+    {
+      id: 74,
+      question: "How do you say 'speak' in Polish?",
+      options: ["rozmawiać", "przemawiać", "mówić", "gadać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 75,
+      question: "How do you say 'read' in Polish?",
+      options: ["czytać", "odczytywać", "przeglądać", "lekturować"],
+      correctAnswer: 0,
+    },
+  ],
+};

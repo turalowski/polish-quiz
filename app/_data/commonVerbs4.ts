@@ -1,0 +1,158 @@
+import { QuizSet } from "../_types";
+
+export const commonVerbs4: QuizSet = {
+  id: 4,
+  name: "Common Verbs - 4",
+  questions: [
+    {
+      id: 76,
+      question: "How do you say 'allow' in Polish?",
+      options: ["zezwalać", "pozwalać", "dopuszczać", "umożliwiać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 77,
+      question: "How do you say 'add' in Polish?",
+      options: ["dodawać", "przyłączać", "dołączać", "uzupełniać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 78,
+      question: "How do you say 'spend' in Polish?",
+      options: ["wydawać", "poświęcać", "spędzać", "trwonić"],
+      correctAnswer: 2,
+    },
+    {
+      id: 79,
+      question: "How do you say 'grow' in Polish?",
+      options: ["rozwijać się", "wzrastać", "rosnąć", "przyrastać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 80,
+      question: "How do you say 'open' in Polish?",
+      options: ["otwierać", "rozwierać", "rozpoczynać", "odkrywać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 81,
+      question: "How do you say 'walk' in Polish?",
+      options: ["iść pieszo", "chodzić", "spacerować", "kroczyć"],
+      correctAnswer: 1,
+    },
+    {
+      id: 82,
+      question: "How do you say 'win' in Polish?",
+      options: ["zwyciężyć", "wygrać", "pokonać", "osiągnąć"],
+      correctAnswer: 1,
+    },
+    {
+      id: 83,
+      question: "How do you say 'offer' in Polish?",
+      options: ["zaoferować", "oferować", "proponować", "przedkładać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 84,
+      question: "How do you say 'remember' in Polish?",
+      options: ["wspominać", "pamiętać", "przypominać sobie", "zapamiętywać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 85,
+      question: "How do you say 'love' in Polish?",
+      options: ["kochać", "uwielbiać", "lubić", "adorować"],
+      correctAnswer: 0,
+    },
+    {
+      id: 86,
+      question: "How do you say 'consider' in Polish?",
+      options: ["rozważać", "uważać", "brać pod uwagę", "myśleć"],
+      correctAnswer: 0,
+    },
+    {
+      id: 87,
+      question: "How do you say 'appear' in Polish?",
+      options: ["ukazać się", "pojawiać się", "zjawić się", "wystąpić"],
+      correctAnswer: 1,
+    },
+    {
+      id: 88,
+      question: "How do you say 'buy' in Polish?",
+      options: ["kupować", "nabywać", "zakupić", "brać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 89,
+      question: "How do you say 'wait' in Polish?",
+      options: ["czekać", "oczekiwać", "wyczekiwać", "przeczekać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 90,
+      question: "How do you say 'serve' in Polish?",
+      options: ["obsługiwać", "serwować", "służyć", "podawać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 91,
+      question: "How do you say 'die' in Polish?",
+      options: ["umierać", "zginąć", "odejść", "skonać"],
+      correctAnswer: 0,
+    },
+    {
+      id: 92,
+      question: "How do you say 'send' in Polish?",
+      options: ["przesyłać", "posyłać", "wysyłać", "odsyłać"],
+      correctAnswer: 2,
+    },
+    {
+      id: 93,
+      question: "How do you say 'expect' in Polish?",
+      options: ["oczekiwać", "spodziewać się", "przewidywać", "domyślać się"],
+      correctAnswer: 1,
+    },
+    {
+      id: 94,
+      question: "How do you say 'build' in Polish?",
+      options: ["konstruować", "budować", "wznosić", "tworzyć"],
+      correctAnswer: 1,
+    },
+    {
+      id: 95,
+      question: "How do you say 'stay' in Polish?",
+      options: ["zostać", "pozostać", "przebywać", "mieszkać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 96,
+      question: "How do you say 'fall' in Polish?",
+      options: ["spadać", "upaść", "przewracać się", "opadać"],
+      correctAnswer: 1,
+    },
+    {
+      id: 97,
+      question: "How do you say 'cut' in Polish?",
+      options: ["ciąć", "przecinać", "odcinać", "kroić"],
+      correctAnswer: 0,
+    },
+    {
+      id: 98,
+      question: "How do you say 'reach' in Polish?",
+      options: ["sięgać", "dotrzeć", "dosięgnąć", "osiągnąć"],
+      correctAnswer: 1,
+    },
+    {
+      id: 99,
+      question: "How do you say 'kill' in Polish?",
+      options: ["zabić", "uśmiercać", "mordować", "pozbawić życia"],
+      correctAnswer: 0,
+    },
+    {
+      id: 100,
+      question: "How do you say 'remain' in Polish?",
+      options: ["pozostawać", "zostawać", "trwać", "utrzymywać się"],
+      correctAnswer: 0,
+    },
+  ],
+};
